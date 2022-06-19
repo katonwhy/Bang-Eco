@@ -1,0 +1,42 @@
+.aboutUsHome {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutUsHome .text {
+    margin-right: 50px;
+    margin-left: 200px;
+}
+
+.aboutUsHome .text h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #002F05;
+}
+
+.aboutUsHome .text p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    color: #002F05;
+}
+
+.aboutUsHome .aboutUsLogo {
+    width: 70%;
+    margin-right: 200px;
+}
+
+.aboutUsHome .aboutUsLogo img {
+    width: 100%;
+}
