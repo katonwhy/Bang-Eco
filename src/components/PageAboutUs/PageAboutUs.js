@@ -1,49 +1,36 @@
 import React from "react";
 import HomeAboutUs from '../HomeAboutUs/HomeAboutUs';
 import OurTeam from "../OurTeam/OurTeam";
+import './PageAboutUs.css';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-
-import Dp1 from '../../assets/Avatar1.png';
+/*import Dp1 from '../../assets/Avatar1.png';
 import Dp2 from '../../assets/Avatar2.png';
 import Dp3 from '../../assets/Avatar3.png';
 import Dp4 from '../../assets/Avatar4.png';
-import Dp5 from '../../assets/Avatar5.png';
+import Dp5 from '../../assets/Avatar5.png';*/
+import Dp6 from '../../assets/Avatar6.png';
 
 function PageAboutUs() {
     return (
-        <div className="PageAboutUs">
+        <div className="pageAboutUs">
             <HomeAboutUs />
-            <div className="Sosmed">
-            <FontAwesomeIcon icon={faCoffee} />
+            <div className="sosmed">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
             </div>
             <div className='ourTeam'>
-                <div className="heading">OUR TEAM</div>
-                <div className="container justify-content-center mr-5">
-                    <div className="row">
-                    <div className='col-md-1'></div>
-                    <div className='col-md-2'>
-                        <OurTeam img={Dp1} name='Masha' job='Project Manager' />
-                    </div>
-                    <div className='col-md-2'>
-                        <OurTeam img={Dp2} name='Merlanda' job='QA Engineer' />
-                    </div>
-                    <div className='col-md-2'>
-                        <OurTeam img={Dp3} name='Yoghi' job='Web Developer' />
-                    </div>
-                    <div className='col-md-2'>
-                        <OurTeam img={Dp4} name='Adji' job='UI Designer' />
-                    </div>
-                    <div className='col-md-2'>
-                        <OurTeam img={Dp5} name='Katon' job='Data Engineer' />
-                    </div>
-                    <div className='col-md-1'></div>
-                    </div>
+                <h1 className="heading">OUR TEAM</h1>
+                <div className="groupCard">
+                    <OurTeam img={Dp6} name='Masha' job='Project Manager' />
+                    <OurTeam img={Dp6} name='Adji' job='UI Designer' />
+                    <OurTeam img={Dp6} name='Katon' job='Data Engineer' />
+                    <OurTeam img={Dp6} name='Yoghi' job='Web Developer' />
+                    <OurTeam img={Dp6} name='Merlanda' job='QA Engineer' />
                 </div>
             </div>
         </div>
-        
     )
 }
 
