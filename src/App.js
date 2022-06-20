@@ -4,9 +4,7 @@ import Heroo from './components/Heroo/Heroo';
 import HomeAboutUs from './components/HomeAboutUs/HomeAboutUs';
 import PageAboutUs from './components/PageAboutUs/PageAboutUs';
 
-/*import AvatarTeam from './assets/AvatarTeam';*/
-
-
+//import AvatarTeam from './assets/AvatarTeam';
 
 function App() {
   return (
