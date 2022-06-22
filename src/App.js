@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from "./components/Navbar";
 import Heroo from './components/Heroo/Heroo';
@@ -10,13 +11,19 @@ import { FooterContainer } from './containers/footer'
 
 function App() {
   return (
-    <React.Fragment>
-      <Navbar/>
-      <Heroo />
-      <HomeAboutUs />
-      <PageAboutUs />
-      <FooterContainer/>
-    </React.Fragment>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route exact path='/'>
+          <Heroo />
+          <HomeAboutUs />
+        </Route>
+        <Route path='/PageAboutUs'>
+          <PageAboutUs />
+        </Route>
+      </Switch>
+      <FooterContainer />
+    </Router>
   )
 }
 
