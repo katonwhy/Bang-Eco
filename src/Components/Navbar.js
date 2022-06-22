@@ -27,7 +27,7 @@ function Navbar() {
                 <a href="#data">Data Donasi</a>
               </div>
             </div>
-            <a href="#tentangkami">TENTANG KAMI</a>
+            <a href="./PageAboutUs">TENTANG KAMI</a>
           </div>
         </div>
         <div className='burger'>
@@ -39,7 +39,7 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;
 
 const NavContainer = styled.nav`
   padding: 10px 50px;
