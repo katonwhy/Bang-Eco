@@ -16,12 +16,12 @@ export function FooterContainer() {
                     </Footer.Column1>
                     <Footer.Column2>
                         <Footer.Title>MENU</Footer.Title>
-                        <Footer.Link href="#beranda">Beranda</Footer.Link>
+                        <Footer.Link href="./">Beranda</Footer.Link>
                         <Footer.Link href="#edukasi">Edukasi</Footer.Link>
                         <Footer.Link href="#koneksi">Koneksi</Footer.Link>
                         <Footer.Link href="#berita">Berita</Footer.Link>
                         <Footer.Link href="#Donasi">Donasi</Footer.Link>
-                        <Footer.Link href="#tentang kami">Tentang Kami</Footer.Link>
+                        <Footer.Link href="./PageAboutUs">Tentang Kami</Footer.Link>
                     </Footer.Column2>
                     <Footer.Column3>
                         <Footer.Title>HUBUNGI KAMI</Footer.Title>
@@ -29,10 +29,10 @@ export function FooterContainer() {
                         <Footer.Link href="#email">Email: company@email.com</Footer.Link>
                         <Footer.Link href="#alamat">Alamat: Jendral Sudirman street, Jakarta</Footer.Link>
                         <Footer.Wrapper1>
-                            <Footer.Column5><Footer.Link href="#fb"><FacebookIcon fontSize='large'/></Footer.Link></Footer.Column5>
-                            <Footer.Column5><Footer.Link href="#twit"><TwitterIcon fontSize='large'/></Footer.Link></Footer.Column5>
-                            <Footer.Column5><Footer.Link href="#ig"><InstagramIcon fontSize='large'/></Footer.Link></Footer.Column5>
-                            <Footer.Column5><Footer.Link href="#linkedin"><LinkedInIcon fontSize='large'/></Footer.Link></Footer.Column5>
+                            <Footer.Column5><Footer.Link href="https://www.facebook.com/"><FacebookIcon fontSize='large'/></Footer.Link></Footer.Column5>
+                            <Footer.Column5><Footer.Link href="https://www.twitter.com/"><TwitterIcon fontSize='large'/></Footer.Link></Footer.Column5>
+                            <Footer.Column5><Footer.Link href="https://www.instagram.com/"><InstagramIcon fontSize='large'/></Footer.Link></Footer.Column5>
+                            <Footer.Column5><Footer.Link href="https://www.linkedin.com/"><LinkedInIcon fontSize='large'/></Footer.Link></Footer.Column5>
                         </Footer.Wrapper1>
                     </Footer.Column3>
                 </Footer.Row>
