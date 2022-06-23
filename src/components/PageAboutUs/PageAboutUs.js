@@ -6,6 +6,8 @@ import './PageAboutUs.css';
 
 import Dp2 from '../../assets/Avatar2.jpeg';
 import Dp3 from '../../assets/Avatar3.jpg';
+import Dp4 from '../../assets/Avatar4.png';
+import Dp5 from '../../assets/Avatar5.jpeg';
 import Dp6 from '../../assets/Avatar6.png';
 
 function PageAboutUs() {
@@ -24,8 +26,8 @@ function PageAboutUs() {
                     <OurTeam img={Dp6} name='Masha' job='Project Manager' />
                     <OurTeam img={Dp2} name='Adji' job='UI Designer' />
                     <OurTeam img={Dp3} name='Katon' job='Data Engineer' />
-                    <OurTeam img={Dp6} name='Yoghi' job='Web Developer' />
-                    <OurTeam img={Dp6} name='Merlanda' job='QA Engineer' />
+                    <OurTeam img={Dp4} name='Yoghi' job='Web Developer' />
+                    <OurTeam img={Dp5} name='Merlanda' job='QA Engineer' />
                 </div>
             </div>
         </div>
