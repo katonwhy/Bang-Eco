@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import BurgerButton from './BurgerButton'
 
-
 function Navbar() {
 
   const [clicked, setClicked] = useState(false)
@@ -15,7 +14,7 @@ function Navbar() {
         <img src={require("../AasetLogo/Logo-Recovered-shadow2.png")} alt="" />
         <div className={`links ${clicked ? 'active' : ''}`}>
           <div class="navbar">
-            <a href="#beranda">BERANDA</a>
+            <a href="./">BERANDA</a>
             <a href="#edukasi">EDUKASI</a>
             <a href="#berita">BERITA</a>
             <div class="dropdown">
@@ -27,7 +26,7 @@ function Navbar() {
                 <a href="#data">Data Donasi</a>
               </div>
             </div>
-            <a href="#tentangkami">TENTANG KAMI</a>
+            <a href="./PageAboutUs">TENTANG KAMI</a>
           </div>
         </div>
         <div className='burger'>
@@ -39,7 +38,7 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;
 
 const NavContainer = styled.nav`
   padding: 10px 50px;
