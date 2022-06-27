@@ -71,7 +71,7 @@ class ReqDonation extends React.Component {
                     '& .MuiTextField-root': { width: '470px', m: 2, justifyContents:'center' },
                 }}
                 style={{ maxWidth: 500, margin: '0 auto', marginBottom:'50px', backgroundColor: '#E1FFE3', padding:'20px 50px' }}
-                noValidate
+                Validate
                 autoComplete="off"
                 >
                 <h1 className="title">Ajukan Donasi</h1>
