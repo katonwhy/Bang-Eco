@@ -1,0 +1,18 @@
+.container .heroReq {
+    width: 600px;
+    margin: 30px auto;
+}
+
+.container .heroReq img {
+    width: 100%;
+}
+
+.container .title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container p {
+    margin-bottom: -10px;
+    margin-left: 20px;
+}

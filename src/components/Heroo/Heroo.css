@@ -1,3 +1,26 @@
 .hero2 img {
     width: 100%;
+    position: relative;
+}
+
+.hero2 .heroText h1 {
+    position: absolute;
+    margin-left: 80px;
+    top: 280px;
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .hero2 .heroText h1{
+        width: 50%;
+        font-size: 30px;
+    }
+}
+    
+@media (max-width: 480px) {
+    .hero2 .heroText h1{
+        width: 50%;
+    }
 }
