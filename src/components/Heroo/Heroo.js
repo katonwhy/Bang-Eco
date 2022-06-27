@@ -6,6 +6,9 @@ const Heroo = () => {
     return (
         <div className="hero2">
             <img src={Hero2} alt='HeroImage' />
+            <div className="heroText">
+                <h1>Mari menjaga lingkungan<br/>dengan mengolah sampah anda!</h1>
+            </div>
         </div>
     )    
 }

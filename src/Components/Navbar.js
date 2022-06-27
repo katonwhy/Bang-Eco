@@ -22,7 +22,7 @@ function Navbar() {
                 <i class="fa fa-caret-down"></i>
               </button>
               <div class="dropdown-content">
-                <a href="#ajukan">Ajukan Donasi</a>
+                <a href="./ReqDonation">Ajukan Donasi</a>
                 <a href="#data">Data Donasi</a>
               </div>
             </div>
