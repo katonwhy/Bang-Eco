@@ -1,0 +1,93 @@
+#info-page{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #002F05;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+hr {
+    margin-top: -50px;
+    width: 240px;
+    position: absolute;
+    margin-left: 50px;
+    border: 2px solid #000000;
+    
+}
+.all-donation-card {
+    display: inline-block;
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+.card-wrap {
+  
+    width: 300px;
+    height: 335px;
+    background:white ;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 12%);
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+.images {
+    width: 300px;
+    height: 175px;
+    background-color: rgb(100, 97, 97);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+   
+}
+
+.images img {
+    width: 300px;
+    height: 175px;
+}
+
+.organization, .title, .description {
+    margin: 5px 0px 5px 10px;
+
+}
+
+.organization {
+    font-size: medium;
+}
+
+.title {
+    font-weight: 500;
+    font-size: larger;
+}
+
+.description {
+    font-size: small;
+}
+
+.btn-detail-wrap {
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+   
+}
+
+.btn-detail-wrap button {
+    margin-top: 20px;
+    background-color:#27AE60;
+    width: 120px;
+    font-size: 15px;
+    height: 35px;
+    border: 3px solid #27AE60;
+    border-color: #27AE60;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    margin-bottom: 20px; 
+  
+}
