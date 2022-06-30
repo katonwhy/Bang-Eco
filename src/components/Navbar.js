@@ -16,14 +16,14 @@ function Navbar() {
           <div class="navbar">
             <a href="./">BERANDA</a>
             <a href="#edukasi">EDUKASI</a>
-            <a href="#berita">BERITA</a>
+            <a href="./AllNews">BERITA</a>
             <div class="dropdown">
               <button class="dropbtn">DONASI
                 <i class="fa fa-caret-down"></i>
               </button>
               <div class="dropdown-content">
                 <a href="./ReqDonation">Ajukan Donasi</a>
-                <a href="#data">Data Donasi</a>
+                <a href="./AllDonationPage">Data Donasi</a>
               </div>
             </div>
             <a href="./PageAboutUs">TENTANG KAMI</a>
