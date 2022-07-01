@@ -19,4 +19,4 @@ const ReqDonation = () => {
     );
 };
 
-export { ReqDonation };
+export default ReqDonation;
