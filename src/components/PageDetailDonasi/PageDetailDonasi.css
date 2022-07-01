@@ -1,0 +1,60 @@
+.detailDonasi {
+    width: 1000px;
+    margin: 60px auto;
+}
+
+.detailDonasiFoto img {
+    width: 100%;
+}
+
+.button {
+    background-color: #27AE60;
+    border: none;
+    color: white;
+    padding: 18px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 120px;
+}
+
+h1 {
+    color: #002F05;
+}
+
+.detailDonasiAlamat {
+    text-align: center;
+}
+
+.detailDonasiAlamat h1 {
+    margin-top: 70px;
+}
+
+.detailDonasiAlamat p {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.detailDonasiRekening {
+    text-align: center;
+    margin-bottom: 180px;
+}
+
+.detailDonasiRekening h1 {
+    margin: 50px 0;
+}
+
+.detailDonasiRekening fieldset {
+    border: 2px solid black;
+    color: black;
+    width: 290px;
+    height: 90px;
+    border-radius: 15px;
+    margin: 0px auto;
+}
+
+/* .detailDonasiRekening img {
+    height: 50px;
+} */
