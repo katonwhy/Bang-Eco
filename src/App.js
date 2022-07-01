@@ -9,8 +9,8 @@ import InfoDonasi from './components/InfoDonasi';
 import Berita from './components/News';
 import DonationArticle from './pages/AllDonation/InfoDonation';
 import NewsArticle from './pages/AllNews/News';
-import PageDetailDonasi from './components/PageDetailDonasi/PageDetailDonasi';
 import {FooterContainer} from './containers/footer';
+import Table from './components/Table';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
       <Switch>
         <Route exact path='/'>
           <Heroo />
+          <Table />
           <InfoDonasi/>
           <Berita/>
           <HomeAboutUs />
@@ -34,9 +35,6 @@ function App() {
         </Route>
         <Route path='/AllDonationPage'>
           <DonationArticle />
-        </Route>
-        <Route path='/PageDetailDonasi/PageDetailDonasi'>
-          <PageDetailDonasi />
         </Route>
       </Switch>
       <FooterContainer />

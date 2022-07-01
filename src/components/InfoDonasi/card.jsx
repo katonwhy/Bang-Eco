@@ -91,7 +91,7 @@ const CardSlider = (props) => {
                                 <p className="title">{slide.title}</p>
                                 <p className="description">{slide.description}</p>
                                 <div className="btn-detail-wrap">
-                                    <a href='../PageDetailDonasi/PageDetailDonasi'>Detail Lainnya </a>
+                                    <button>Detail Lainnya</button>
                                 </div>
                                 
                             </div>
