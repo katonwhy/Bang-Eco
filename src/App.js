@@ -12,8 +12,6 @@ import NewsArticle from './pages/AllNews/News';
 import {FooterContainer} from './containers/footer';
 import Table from './components/Table';
 
-//import AvatarTeam from './assets/AvatarTeam';
-
 function App() {
   return (
     <Router>
