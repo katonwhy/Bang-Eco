@@ -28,7 +28,7 @@
 .card-wrap {
   
     width: 300px;
-    height: 335px;
+    height: 355px;
     background:white ;
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgb(0 0 0 / 12%);
@@ -42,14 +42,17 @@
     width: 300px;
     height: 175px;
     background-color: rgb(100, 97, 97);
-    border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
    
 }
 
 .images img {
     width: 300px;
     height: 175px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
 }
 
 .organization, .title, .description {
@@ -73,8 +76,7 @@
 .btn-detail-wrap {
     display: flex;
     justify-content: flex-end;
-    margin-right: 10px;
-   
+    margin-right: 10px;   
 }
 
 .btn-detail-wrap button {
@@ -88,6 +90,5 @@
     text-align: center;
     border-radius: 30px;
     color: white;
-    margin-bottom: 20px; 
   
 }
