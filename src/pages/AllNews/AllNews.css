@@ -28,7 +28,7 @@
 .card-wrap {
   
     width: 300px;
-    height: 355px;
+    height: 335px;
     background:white ;
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgb(0 0 0 / 12%);
@@ -55,7 +55,7 @@
     
 }
 
-.organization, .title, .description {
+.organization, .title, .description, .author {
     margin: 5px 0px 5px 10px;
 
 }

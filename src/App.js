@@ -11,6 +11,7 @@ import DonationArticle from './pages/AllDonation/InfoDonation';
 import NewsArticle from './pages/AllNews/News';
 import {FooterContainer} from './containers/footer';
 import Table from './components/Table';
+import DetailDonasi from './components/PageDetailDonasi/PageDetailDonasi';
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
         </Route>
         <Route path='/AllDonationPage'>
           <DonationArticle />
+        </Route>
+        <Route path='/DetailDonationPage'>
+          <DetailDonasi />
         </Route>
       </Switch>
       <FooterContainer />

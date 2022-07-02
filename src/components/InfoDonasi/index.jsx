@@ -8,6 +8,9 @@ const InfoDonasi = () => {
             <p id="info-donasi">Informasi Donasi</p>
             <div className="card">
                 <CardSlider/>
+                <p className='link'>
+                    <a href="/AllDonationPage">Lihat Selengkapnya</a>
+                </p>
             </div>
         </div>
 
