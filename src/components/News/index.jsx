@@ -16,5 +16,4 @@ const Berita = () => {
     
 }
 
-
 export default Berita;

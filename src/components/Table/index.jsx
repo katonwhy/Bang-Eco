@@ -6,8 +6,6 @@ import data from '../../data';
 import './table.css'
 
 function Table() {
-  
-
   const columns =  [{
     name: "nama_lokasi_3R/bank_sampah",
     label: "Nama TPS3R/Bank Sampah",

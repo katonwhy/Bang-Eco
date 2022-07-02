@@ -13,12 +13,6 @@ function PageAboutUs() {
     return (
         <div className="pageAboutUs">
             <HomeAboutUs />
-            <div className="sosmed">
-            <a href='https://www.facebook.com/'><i class="fa-brands fa-facebook-square"></i></a>
-            <a href='https://www.twitter.com/'><i class="fa-brands fa-twitter"></i></a>
-            <a href='https://www.instagram.com/'><i class="fa-brands fa-instagram"></i></a>
-            <a href='https://www.linkedin.com/'><i class="fa-brands fa-linkedin"></i></a>
-            </div>
             <div className='ourTeam'>
                 <h1 className="heading">OUR TEAM</h1>
                 <div className="groupCard">
