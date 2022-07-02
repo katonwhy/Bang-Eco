@@ -1,42 +1,92 @@
-.aboutUsHome {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
 
-.aboutUsHome .text {
-    margin-right: 50px;
-    margin-left: 200px;
+.section{
+	width: 100%;
+	min-height: 100vh;
 }
-
-.aboutUsHome .text h1 {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 1000;
-    font-size: 34px;
-    line-height: 40px;
-    letter-spacing: -0.02em;
+.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+    margin-left: 30px;
+}
+.image-section{
+	float: right;
+	width: 30%;
+    margin-right: 20px;
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+}
+.content-section .title{
+	font-size: 18px;
     color: #002F05;
+    margin: 0;
 }
 
-.aboutUsHome .text p{
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;
-    letter-spacing: -0.02em;
+.content-section .content p{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
     color: #002F05;
+    text-align: justify;
 }
 
-.aboutUsHome .aboutUsLogo {
-    width: 70%;
-    margin-right: 200px;
+.content-section .social{
+	margin: 40px 0;
 }
 
-.aboutUsHome .aboutUsLogo img {
-    width: 100%;
+.content-section .social i{
+	color:#27AE60;
+	font-size: 30px;
+	padding-right: 20px;
+}
+.content-section .social i:hover{
+	color:#00910e;
+}
+@media screen and (max-width: 768px){
+	.container{
+        width: 80%;
+        display: block;
+        margin:auto;
+        padding-top:50px;
+    }
+    .content-section{
+        float:none;
+        width:100%;
+        display: block;
+        margin:auto;
+    }
+    .image-section{
+        float:none;
+        margin: 20px auto;
+        width:50%;
+        
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin:auto;
+    }
+    .content-section .title{
+        text-align: center;
+        font-size: 19px;
+    }
+    .content-section .content .button{
+        text-align: center;
+    }
+    .content-section .content .button a{
+        padding:9px 30px;
+    }
+    .content-section .social{
+        text-align: center;
+    }
+
 }

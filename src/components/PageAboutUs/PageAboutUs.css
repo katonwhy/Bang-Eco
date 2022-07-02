@@ -1,16 +1,5 @@
 .pageAboutUs {
-    margin-bottom: 100px;
-}
-
-.pageAboutUs .sosmed {
-    margin-left: 200px;
-    margin-top: -80px;
-}
-
-.pageAboutUs .sosmed .fa-brands {
-    margin-right: 10px;
     margin-bottom: 150px;
-    color: #27AE60;
 }
 
 .pageAboutUs .ourTeam h1 {
@@ -24,4 +13,16 @@
     flex-direction: row;
     justify-content: center;
     text-align: center;
+}
+
+@media screen and (max-width: 768px){
+    .pageAboutUs .ourTeam h1 {
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .pageAboutUs .ourTeam .groupCard {
+        display: grid;
+    }
 }

@@ -11,8 +11,7 @@ import Berita from './components/News';
 import DonationArticle from './pages/AllDonation/InfoDonation';
 import NewsArticle from './pages/AllNews/News';
 import {FooterContainer} from './containers/footer';
-
-//import AvatarTeam from './assets/AvatarTeam';
+import Table from './components/Table';
 
 function App() {
   return (
@@ -21,6 +20,7 @@ function App() {
       <Switch>
         <Route exact path='/'>
           <Heroo />
+          <Table />
           <InfoDonasi/>
           <Berita/>
           <HomeAboutUs />
