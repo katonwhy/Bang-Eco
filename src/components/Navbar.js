@@ -13,15 +13,15 @@ function Navbar() {
       <NavContainer>
         <img src={require("../AasetLogo/Logo-Recovered-shadow2.png")} alt="" />
         <div className={`links ${clicked ? 'active' : ''}`}>
-          <div class="navbar">
+          <div className="navbar">
             <a href="./">BERANDA</a>
-            <a href="#edukasi">EDUKASI</a>
+            <a href="./edukasi">EDUKASI</a>
             <a href="./AllNews">BERITA</a>
-            <div class="dropdown">
-              <button class="dropbtn">DONASI
-                <i class="fa fa-caret-down"></i>
+            <div className="dropdown">
+              <button className="dropbtn">DONASI
+                <i className="fa fa-caret-down"></i>
               </button>
-              <div class="dropdown-content">
+              <div className="dropdown-content">
                 <a href="./ReqDonation">Ajukan Donasi</a>
                 <a href="./AllDonationPage">Data Donasi</a>
               </div>
