@@ -1,6 +1,7 @@
 .container {
     position: relative;
     margin-top: 100px;
+
 }
 
 nav {
@@ -77,7 +78,6 @@ nav .dropdown .dropbtn {
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -123,7 +123,7 @@ nav .dropdown:hover .dropdown-content {
         z-index: 9;
         left: 0;
         right: 0;
-        top: 100px;
+        top: 80px;
         bottom: 100%;
         width: auto;
         height: auto;
