@@ -13,7 +13,7 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 
-class Education extends React.Component {
+class EducationPage extends React.Component {
     // state = {  } 
 
 constructor( props ) {
@@ -35,7 +35,7 @@ createMarkup = ( data ) => ({
     componentDidMount() {
         const wordPressSiteURL = 'https://bangeco.dezign.id';
         this.setState( { loading: true }, () =>{
-            axios.get( `${wordPressSiteURL}/wp-json/wp/v2/posts?categories=3&per_page=3` )
+            axios.get( `${wordPressSiteURL}/wp-json/wp/v2/posts?categories=3` )
             .then( res => {
                 if ( 200 === res.status ) {
                     if ( res.data.length ) {
@@ -98,4 +98,4 @@ createMarkup = ( data ) => ({
     }
 }
  
-export default Education;
+export default EducationPage;

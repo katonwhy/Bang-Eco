@@ -15,7 +15,7 @@ function Navbar() {
         <div className={`links ${clicked ? 'active' : ''}`}>
           <div className="navbar">
             <a href="./">BERANDA</a>
-            <a href="#edukasi">EDUKASI</a>
+            <a href="./edukasi">EDUKASI</a>
             <a href="./AllNews">BERITA</a>
             <div className="dropdown">
               <button className="dropbtn">DONASI

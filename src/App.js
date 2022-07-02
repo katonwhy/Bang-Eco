@@ -12,6 +12,8 @@ import NewsArticle from './pages/AllNews/News';
 import {FooterContainer} from './containers/footer';
 import Table from './components/Table';
 import Education from './components/Education/Education'
+import SinglePost from './components/SinglePost';
+import EducationPage from './components/Education/EducationPage';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
           <Education />
           <HomeAboutUs />
         </Route>
+        <Route exact path="/post/:id" component={SinglePost} />
+        <Route exact path="/edukasi" component={EducationPage} />
         <Route path='/AllNews'>
           <NewsArticle/>
         </Route>
@@ -38,6 +42,7 @@ function App() {
         <Route path='/AllDonationPage'>
           <DonationArticle />
         </Route>
+
       </Switch>
       <FooterContainer />
     </Router>
