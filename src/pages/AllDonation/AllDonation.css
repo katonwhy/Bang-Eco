@@ -91,3 +91,18 @@ hr {
     margin-bottom: 20px; 
   
 }
+
+.btn-detail-wrap button:hover {
+    background-color: white;
+    color:#219653;
+    border: 3px solid white;
+}
+
+.card-wrap:hover {
+    background-color: #048853;
+    color: white;
+}
+
+.link {
+    text-align: center;
+}
