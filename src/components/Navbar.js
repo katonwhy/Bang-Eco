@@ -13,15 +13,15 @@ function Navbar() {
       <NavContainer>
         <img src={require("../AasetLogo/Logo-Recovered-shadow2.png")} alt="" />
         <div className={`links ${clicked ? 'active' : ''}`}>
-          <div class="navbar">
+          <div className="navbar">
             <a href="./">BERANDA</a>
             <a href="#edukasi">EDUKASI</a>
             <a href="./AllNews">BERITA</a>
-            <div class="dropdown">
-              <button class="dropbtn">DONASI
-                <i class="fa fa-caret-down"></i>
+            <div className="dropdown">
+              <button className="dropbtn">DONASI
+                <i className="fa fa-caret-down"></i>
               </button>
-              <div class="dropdown-content">
+              <div className="dropdown-content">
                 <a href="./ReqDonation">Ajukan Donasi</a>
                 <a href="./AllDonationPage">Data Donasi</a>
               </div>
@@ -41,20 +41,25 @@ function Navbar() {
 export default Navbar;
 
 const NavContainer = styled.nav`
-  padding: 10px 50px;
+  padding: 5px 50px;
   background-color: #219653;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   img{
-    height: 100px;
+    height: 70px;
+  }
+
+  .navbar{
+    margin-left: 50px;
+    background-color: black;
   }
 
   /* Links inside the navbar */
   .navbar a {
     float: left;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: white;
     text-align: center;
@@ -70,7 +75,7 @@ const NavContainer = styled.nav`
   
   /* Dropdown button */
   .dropdown .dropbtn {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     border: none;
     outline: none;

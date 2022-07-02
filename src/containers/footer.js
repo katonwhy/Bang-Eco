@@ -18,7 +18,6 @@ export function FooterContainer() {
                         <Footer.Title>MENU</Footer.Title>
                         <Footer.Link href="./">Beranda</Footer.Link>
                         <Footer.Link href="#edukasi">Edukasi</Footer.Link>
-                        <Footer.Link href="#koneksi">Koneksi</Footer.Link>
                         <Footer.Link href="#berita">Berita</Footer.Link>
                         <Footer.Link href="./ReqDonation">Donasi</Footer.Link>
                         <Footer.Link href="./PageAboutUs">Tentang Kami</Footer.Link>
@@ -29,10 +28,10 @@ export function FooterContainer() {
                         <Footer.Link href="#email">Email: bangeco@email.com</Footer.Link>
                         <Footer.Link href="#alamat">Alamat: Jl. Jendral Sudirman No.10, Jakarta</Footer.Link>
                         <Footer.Wrapper1>
-                            <Footer.Column5><Footer.Link href="https://www.facebook.com/"><FacebookIcon fontSize='large'/></Footer.Link></Footer.Column5>
-                            <Footer.Column5><Footer.Link href="https://www.twitter.com/"><TwitterIcon fontSize='large'/></Footer.Link></Footer.Column5>
-                            <Footer.Column5><Footer.Link href="https://www.instagram.com/"><InstagramIcon fontSize='large'/></Footer.Link></Footer.Column5>
-                            <Footer.Column5><Footer.Link href="https://www.linkedin.com/"><LinkedInIcon fontSize='large'/></Footer.Link></Footer.Column5>
+                            <Footer.Column5><Footer.Link href="https://www.facebook.com/"><FacebookIcon fontSize='medium'/></Footer.Link></Footer.Column5>
+                            <Footer.Column5><Footer.Link href="https://www.twitter.com/"><TwitterIcon fontSize='medium'/></Footer.Link></Footer.Column5>
+                            <Footer.Column5><Footer.Link href="https://www.instagram.com/"><InstagramIcon fontSize='medium'/></Footer.Link></Footer.Column5>
+                            <Footer.Column5><Footer.Link href="https://www.linkedin.com/"><LinkedInIcon fontSize='medium'/></Footer.Link></Footer.Column5>
                         </Footer.Wrapper1>
                     </Footer.Column3>
                 </Footer.Row>
