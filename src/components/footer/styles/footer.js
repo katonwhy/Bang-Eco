@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   margin-top: 10px;
-  padding: 20px 80px;
+  padding: 5px 80px;
   background-color: #219653;
   @media (max-width: 1000px) {
-    padding: 70px 30px;
+    padding: 20px 30px;
   }
 `;
 
@@ -15,7 +15,6 @@ export const Wrapper = styled.div`
     justify-content: center;
     max-width: 1500px;
     margin: 0 auto;
-    // background: red;
 `
 
 export const Column1 = styled.div`
@@ -24,9 +23,8 @@ export const Column1 = styled.div`
   text-align: left;
   width: 470px;
   img{
-    height: 100px;
+    height: 80px;
   }
-  // background: grey;
   @media (max-width: 1000px) {
     width: auto;
   }
@@ -40,7 +38,6 @@ export const Column2 = styled.div`
   @media (max-width: 1000px) {
     margin-left: 0;
   }
-  // background: blue;
 `;
 
 export const Column3 = styled.div`
@@ -54,8 +51,7 @@ export const Column4 = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-top: 50px;
-  // background: yellow;
+  margin-top: 25px;
 `;
 
 export const Wrapper1 = styled.div`
@@ -63,7 +59,6 @@ export const Wrapper1 = styled.div`
     flex-direction: row;
     justify-content: flex-start;
     max-width: 1500px;
-    // background: blue;
 `
 
 export const Column5 = styled.div`
@@ -78,17 +73,16 @@ export const Row = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   grid-gap: 120px;
-  // background: black;
   @media (max-width: 1000px) {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 50px;
+    grid-gap: 30px;
   }
 `;
 
 export const Link = styled.a`
   color: #fff;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
   // background: yellow;
   // &:hover {
@@ -102,5 +96,5 @@ export const Title = styled.p`
   color: #fff;
   margin-bottom: 20px;
   font-weight: bold;
-  // background: green;
+  font-size: 18px;
 `;
