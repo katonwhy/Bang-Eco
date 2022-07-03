@@ -1,84 +1,101 @@
-import React from "react";
-import DonationCard from "./Article";
-import "./AllDonation.css";
+import React from 'react';
+import axios from 'axios';
+import { Link } from '@reach/router';
+import renderHTML from 'react-render-html';
+// import Moment from 'react-moment';
 
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import Grid from '@mui/material/Grid';
+import Box from '@mui/material/Box';
 
-const DonationArticle = () => {
-    const slides = [
-        {
-            images:'https://picsum.photos/200/300',
-            organization: "Organization Name",
-            title: "Card Title",
-            description: "Lorem ipsum dolor sit amet"
-        },
-        {
-            images:'https://picsum.photos/400/300',
-            organization: "Organization Name",
-            title: "Card Title",
-            description: "Lorem ipsum dolor sit amet"
-        },
-        {
-            images:'https://picsum.photos/200/400',
-            organization: "Organization Name",
-            title: "Card Title",
-            description: "Lorem ipsum dolor sit amet"
-        },
-        {
-            images:'https://picsum.photos/200/500',
-            organization: "Organization Name",
-            title: "Card Title",
-            description: "Lorem ipsum dolor sit amet"
-        },
-        {
-            images:'https://picsum.photos/500/400',
-            organization: "Organization Name",
-            title: "Card Title",
-            description: "Lorem ipsum dolor sit amet"
-        },
-        {
-            images:'https://picsum.photos/200/100',
-            organization: "Organization Name",
-            title: "Card Title",
-            description: "Lorem ipsum dolor sit amet"
-        },
-        {
-            images:'https://picsum.photos/300/700',
-            organization: "Organization Name",
-            title: "Card Title",
-            description: "Lorem ipsum dolor sit amet"
-        },
-        {
-            images:'https://picsum.photos/200/900',
-            organization: "Organization Name",
-            title: "Card Title",
-            description: "Lorem ipsum dolor sit amet"
-        },
-        {
-            images:'https://picsum.photos/300/800',
-            organization: "Organization Name",
-            title: "Card Title",
-            description: "Lorem ipsum dolor sit amet"
-        },
-        
-    ];
+class DonationArticle extends React.Component {
+    // state = {  } 
 
-        return(
-            <>
-            <p id="info-page">Informasi Donasi</p>
-            <hr></hr>
-            {slides.map((e)=> (
-            <DonationCard
-                key= {e.id}
-                images = {e.images}
-                organization={e.organization}
-                title={e.title}
-                description={e.description}
+constructor( props ) {
+    super( props );
 
-            />
-            ))}
-            </>
+    this.state = {
+        loading:false,
+        posts: [],
+        error: ''
+    }
+}
+
+createMarkup = ( data ) => ({
+    __html: data
+});
+
+// https://bangeco.dezign.id/wp-json/wp/v2/posts?categories=3&per_page=5
+
+    componentDidMount() {
+        const wordPressSiteURL = 'https://bangeco.dezign.id';
+        this.setState( { loading: true }, () =>{
+            axios.get( `${wordPressSiteURL}/wp-json/wp/v2/posts?categories=6` )
+            .then( res => {
+                if ( 200 === res.status ) {
+                    if ( res.data.length ) {
+                        this.setState( { loading: false, posts: res.data } );
+                        console.warn (res.data);
+                    } else {
+                        this.setState( { loading: false, error: 'No Posts Found' } );
+                    }
+                }
+
+            } )
+            .catch( err => this.setState( { loading: false, error: err } ) );
+    } )
+}
+
+    render() { 
+        // console.warn ( 'state', this.state)
+        const { posts, error } = this.state;
+        return (
+
+            <React.Fragment>
+                { error && <div className="alert alert-danger" dangerouslySetInnerHTML={ this.createMarkup( error ) }/> }
+                { posts.length ? (
+                <Box sx={{ flexGrow: 1 }}>
+                   <Grid container spacing={2}>
+                        { posts.map( post => (
+                            <Grid item xs={4}>
+                                {/* <Card key={ post.id } sx={{ maxWidth: 345 }}> */}
+                                <Card key={ post.id }>
+                                    <CardMedia
+                                    component="img"
+                                    height="140"
+                                    image={post.better_featured_image.source_url}
+                                    />
+                                    <CardContent>
+                                    <Typography gutterBottom variant="h5">
+                                    <Link to={`/post/${post.id}`}>
+                                        {renderHTML( post.title.rendered )}
+                                    </Link>
+                                    </Typography>
+                                    <Typography variant="body2" color="text.secondary">
+                                        {renderHTML( post.excerpt.rendered )} 
+                                    </Typography>
+                                    </CardContent>
+                                    <CardActions>
+                                        <Link to={`/post/${post.id}`}>
+                                        <Button size="small">Selengkapnya</Button>
+                                        </Link>
+                                    </CardActions>
+                            </Card> 
+                            </Grid>
+                        ))}
+                    </Grid>
+                    </Box>
+                       
+          
+                ) :  ''}
+            </React.Fragment>
         );
-
-};
-
+    }
+}
+ 
 export default DonationArticle;

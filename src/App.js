@@ -28,8 +28,11 @@ function App() {
           <Education />
           <HomeAboutUs />
         </Route>
-        <Route exact path="/post/:id" component={SinglePost} />
-        <Route exact path="/edukasi" component={EducationPage} />
+        <Route path='/post/:id'>
+          <SinglePost />
+        </Route>
+        {/* <Route exact path="/post/:id" component={SinglePost} /> */}
+        <Route exact path="/AllEdukasi" component={EducationPage} />
         <Route path='/AllNews'>
           <NewsArticle/>
         </Route>

@@ -10,7 +10,8 @@
     
 }
 
-#newsSlider {
+
+#slider {
     width: 100%;
     height: 100%;
     white-space: nowrap;
@@ -19,7 +20,7 @@
     scroll-behavior: smooth;
 }
 
-#newsSlider::-webkit-scrollbar{
+#slider::-webkit-scrollbar{
     display: none;
 }
 
@@ -33,6 +34,7 @@
 
 .card-image {
     width: 100%;
+    background-size: cover;
     height: 175px;
     background-color: rgb(100, 97, 97);
     border-top-left-radius: 10px;
@@ -55,6 +57,7 @@
 
 .description {
     font-size: small;
+    word-wrap: break-word;
 }
 
 .btn-detail-wrap {
@@ -79,6 +82,39 @@
   
 }
 
+.btn-detail-wrap button:hover {
+    background-color: white;
+    color:#219653;
+    border: 3px solid white;
+}
+
+.btn-more-wrap {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+   
+}
+
+.btn-more-wrap button {
+    margin-top: 20px;
+    background-color:#27AE60;
+    width: 200px;
+    font-size: 15px;
+    height: 35px;
+    border: 3px solid #27AE60;
+    border-color: #27AE60;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    margin-bottom: 20px; 
+  
+}
+
+.btn-more-wrap button:hover {
+    background-color: white;
+    color:#219653;
+    border: 3px solid white;
+}
 /* untuk ukuran dan tempat dari icon panah */
 .slider-icon.left, .slider-icon.right{
     background: white;
@@ -114,6 +150,12 @@
     cursor: pointer;
 }
 
+.slider-card:hover {
+    background-color: #048853;
+    color: white;
+}
+
+
 #info-donasi{
     font-family: 'Work Sans';
     font-style: normal;
@@ -124,15 +166,3 @@
     color: #002F05;
     text-align: center;
 }
-
-.btn-detail-wrap button:hover {
-    background-color: white;
-    color:#219653;
-    border: 3px solid white;
-}
-
-.slider-card:hover {
-    background-color: #048853;
-    color: white;
-}
-
