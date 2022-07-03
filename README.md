@@ -81,7 +81,7 @@ You may also see any lint errors in the console.
 
 Thanks to the following people who have contributed to this project:
 
-###Group Frontend Engineer Waste 2 (FE_WA2)
+### Group Frontend Engineer Waste 2 (FE_WA2)
 * [Masha](https://www.linkedin.com/in/mawar-sharon-priskila-towengke-6w52001)
 * [Adji](https://www.linkedin.com/in/mohammad-adji-febriansyah-07135919a/)
 * [Katon](http://linkedin.com/in/katon-wahyudi-putra/)
