@@ -6,7 +6,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
- Bang Eco adalah sebuah website yang bertujuan untuk memberikan edukasi tentang pengelolaan sampah dengan baik dan informasi terkini seputar sampah kepada masyarakat. Mulai dari edukasi mengenai cara pemisahan limbah atau sampah yang reusable dan zero waste, cara penerapan zero waste lifestyle hingga dampak-dampak positif dan negatif yang akan diterima kita sebagai manusia dan lingkungan.
+Bang Eco is a website that aims to provide education about proper waste management and the latest information about waste to the public. Starting from education about how to separate reusable and zero waste waste or waste, how to implement a zero waste lifestyle to the positive and negative impacts that we as humans and the environment will receive.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
