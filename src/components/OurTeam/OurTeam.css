@@ -30,3 +30,14 @@
         margin-top: 5px;
     }
 }
+
+@media screen and (max-width: 550px) {
+    .ourTeamCard h2{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    .ourTeamCard p {
+        font-size: 12px;
+    }
+}

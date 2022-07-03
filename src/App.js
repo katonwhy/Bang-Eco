@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Navbar from "./components/navbar/navbar";
-import Heroo from './components/Heroo/Heroo';
-import HomeAboutUs from './components/HomeAboutUs/HomeAboutUs';
-import PageAboutUs from './components/PageAboutUs/PageAboutUs';
-import ReqDonation from './components/ReqDonation/ReqDonation';
+import Navbar from "./components/Navbar/navbar";
+import Hero from './components/Hero';
+import HomeAboutUs from './components/HomeAboutUs';
+import PageAboutUs from './pages/AboutUs';
+import ReqDonation from './components/ReqDonation';
 import InfoDonasi from './components/InfoDonasi';
 import Berita from './components/News';
 import DonationArticle from './pages/AllDonation/InfoDonation';
@@ -21,7 +21,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path='/'>
-          <Heroo />
+          <Hero />
           <Table />
           <InfoDonasi/>
           <Berita/>

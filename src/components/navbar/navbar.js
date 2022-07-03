@@ -10,7 +10,7 @@ const navbar = () => {
                 <div class="logo"><img src={Logo} alt='Logo' /></div>
                 <ul class="links">
                     <li><a href="./">BERANDA</a></li>
-                    <li><a href="#about">EDUKASI</a></li>
+                    <li><a href="#edukasi">EDUKASI</a></li>
                     <li><a href="./AllNews">BERITA</a></li>
                     <div className="dropdown">
                         <button className="dropbtn">DONASI

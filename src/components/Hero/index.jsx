@@ -1,11 +1,11 @@
 import React from "react";
-import './Heroo.css';
-import Hero2 from '../../assets/Hero2.png';
+import './Hero.css';
+import HeroImage from '../../assets/HeroImage.png';
 
-const Heroo = () => {
+const Hero = () => {
     return (
-        <div className="hero2">
-            <img src={Hero2} alt='HeroImage' />
+        <div className="hero">
+            <img src={HeroImage} alt='HeroImage' />
             <div className="heroText">
                 <h1>Mari menjaga lingkungan<br/>dengan mengolah sampah anda!</h1>
             </div>
@@ -13,4 +13,4 @@ const Heroo = () => {
     )    
 }
 
-export default Heroo;
+export default Hero;
