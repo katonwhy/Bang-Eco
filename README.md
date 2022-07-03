@@ -1,15 +1,12 @@
 # Bang Eco App 
 
 <!-- PROJECT LOGO -->
-<br />
-<div align="center">
-![Logo-Recovered-shadow2](https://user-images.githubusercontent.com/91068303/177029972-6d81fa17-0aa5-42e2-b9ba-c36b2f493ba5.png)
-</div>
+![Logo-Recovered-shadow2](https://user-images.githubusercontent.com/91068303/177037851-c7be5864-9834-4314-8c1a-d5d411edb53f.png)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
- Bang Eco adalah sebuah website yang bertujuan untuk memberikan edukasi tentang pengelolaan sampah dengan baik dan informasi terkini seputar sampah kepada masyarakat. Mulai dari edukasi mengenai cara pemisahan limbah atau sampah yang reusable dan zero waste, cara penerapan zero waste lifestyle hingga dampak-dampak positif dan negatif yang akan diterima kita sebagai manusia dan lingkungan.
+Bang Eco is a website that aims to provide education about proper waste management and the latest information about waste to the public. Starting from education about how to separate reusable and zero waste waste or waste, how to implement a zero waste lifestyle to the positive and negative impacts that we as humans and the environment will receive.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -37,7 +34,7 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Built With
+## Built With
 
 * [React.js](https://reactjs.org/)
 * [MUI](https://mui.com/)
@@ -63,8 +60,6 @@ This project was built by us using react.js for capstone project in GenerasiGigi
    npm install
    ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 ### How to run app
 
@@ -86,11 +81,12 @@ You may also see any lint errors in the console.
 
 Thanks to the following people who have contributed to this project:
 
-* [Masha](https://www.linkedin.com/in/mawar-sharon-priskila-towengke-6w52001)
-* [Adji](https://www.linkedin.com/in/mohammad-adji-febriansyah-07135919a/)
-* [Katon](http://linkedin.com/in/katon-wahyudi-putra/)
-* [Yoghi](https://www.linkedin.com/in/yoghi-oktapiansyah-7126681b6/)
-* [Merlan](https://www.linkedin.com/in/merlanda-ardiyla-safira-4a977720b/)
+##### Group Frontend Engineer Waste 2 (FE_WA2)
+* [Mawar Sharon Priskila Towengke | KM_G2FE6186](https://www.linkedin.com/in/mawar-sharon-priskila-towengke-6w52001)
+* [Mohammad Adji Febriansyah | KM_G2FE5005](https://www.linkedin.com/in/mohammad-adji-febriansyah-07135919a/)
+* [Katon Wahyudi Putra | KM_G2FE6132](http://linkedin.com/in/katon-wahyudi-putra/)
+* [Yoghi Oktapiansyah | KM_G2FE2158](https://www.linkedin.com/in/yoghi-oktapiansyah-7126681b6/)
+* [Merlanda Ardiyla Safira | KM_G2FE2284](https://www.linkedin.com/in/merlanda-ardiyla-safira-4a977720b/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
