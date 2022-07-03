@@ -60,8 +60,6 @@ This project was built by us using react.js for capstone project in GenerasiGigi
    npm install
    ```
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 ### How to run app
 
