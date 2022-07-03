@@ -1,7 +1,7 @@
 import React from "react";
-import HomeAboutUs from '../HomeAboutUs/HomeAboutUs';
-import OurTeam from "../OurTeam/OurTeam";
-import './PageAboutUs.css';
+import HomeAboutUs from '../../components/HomeAboutUs';
+import OurTeam from "../../components/OurTeam";
+import './AboutUs.css';
 
 import Dp1 from '../../assets/Avatar1.png';
 import Dp2 from '../../assets/Avatar2.jpeg';
@@ -9,12 +9,12 @@ import Dp3 from '../../assets/Avatar3.jpg';
 import Dp4 from '../../assets/Avatar4.png';
 import Dp5 from '../../assets/Avatar5.jpeg';
 
-function PageAboutUs() {
+const PageAboutUs = () => {
     return (
         <div className="pageAboutUs">
             <HomeAboutUs />
             <div className='ourTeam'>
-                <h1 className="heading">OUR TEAM</h1>
+                <h1 className="heading">Tim Kami</h1>
                 <div className="groupCard">
                     <OurTeam img={Dp1} name='Masha' job='Project Manager' />
                     <OurTeam img={Dp2} name='Adji' job='UI Designer' />
