@@ -1,5 +1,5 @@
 import React from "react";
-import './HomeAboutUs.css';
+import './index.css';
 import AboutUs from '../../assets/AboutUs.png';
 
 const HomeAboutUs = () => {

@@ -1,7 +1,7 @@
 import React from "react";
-import './OurTeam.css';
+import './index.css';
 
-function OurTeam(props) {
+const OurTeam = (props) => {
     return (
         <div className="ourTeamCard">
             <img src={props.img} alt='avatar' />

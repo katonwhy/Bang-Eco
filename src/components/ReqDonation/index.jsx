@@ -1,5 +1,5 @@
 import React from "react";
-import './ReqDonation.css';
+import './index.css';
 import HeroReqDonation from '../../assets/HeroReqDonationPage.png';
 
 const ReqDonation = () => {
