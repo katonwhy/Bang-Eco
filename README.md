@@ -82,11 +82,11 @@ You may also see any lint errors in the console.
 Thanks to the following people who have contributed to this project:
 
 ##### Group Frontend Engineer Waste 2 (FE_WA2)
-* [Mawar Sharon Priskila Towengke	KM_G2FE6186](https://www.linkedin.com/in/mawar-sharon-priskila-towengke-6w52001)
-* [Mohammad Adji Febriansyah		KM_G2FE5005](https://www.linkedin.com/in/mohammad-adji-febriansyah-07135919a/)
-* [Katon Wahyudi Putra			KM_G2FE6132](http://linkedin.com/in/katon-wahyudi-putra/)
-* [Yoghi Oktapiansyah			KM_G2FE2158](https://www.linkedin.com/in/yoghi-oktapiansyah-7126681b6/)
-* [Merlanda Ardiyla Safira		KM_G2FE2284](https://www.linkedin.com/in/merlanda-ardiyla-safira-4a977720b/)
+* [Mawar Sharon Priskila Towengke | KM_G2FE6186](https://www.linkedin.com/in/mawar-sharon-priskila-towengke-6w52001)
+* [Mohammad Adji Febriansyah | KM_G2FE5005](https://www.linkedin.com/in/mohammad-adji-febriansyah-07135919a/)
+* [Katon Wahyudi Putra | KM_G2FE6132](http://linkedin.com/in/katon-wahyudi-putra/)
+* [Yoghi Oktapiansyah | KM_G2FE2158](https://www.linkedin.com/in/yoghi-oktapiansyah-7126681b6/)
+* [Merlanda Ardiyla Safira | KM_G2FE2284](https://www.linkedin.com/in/merlanda-ardiyla-safira-4a977720b/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
