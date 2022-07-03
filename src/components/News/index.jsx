@@ -8,9 +8,9 @@ const Berita = () => {
             <p id="info-donasi">Berita Terkini</p>
             <div className="card">
                 <NewsCard/>
-                <p className='link'>
-                    <a href="/AllNews">Lihat Selengkapnya</a>
-                </p>
+                <div className="btn-more-wrap">
+                <a href="/AllNews"><button>Lihat Selengkapnya</button></a>
+                </div>
             </div>
             
         </div>
