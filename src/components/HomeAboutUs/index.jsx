@@ -1,12 +1,12 @@
 import React from "react";
-import './index.css';
+import './HomeAboutUs.css';
 import AboutUs from '../../assets/AboutUs.png';
 
 const HomeAboutUs = () => {
     return (
         <div className="section">
 		<div className="container">
-			<div className="content-section">
+			<div className="homeAboutUs">
 				<div className="title">
 					<h1>Tentang Kami</h1>
 				</div>
@@ -20,7 +20,7 @@ const HomeAboutUs = () => {
                     <a href='https://www.linkedin.com/'><i className="fa-brands fa-linkedin"></i></a>
 				</div>
 			</div>
-			<div className="image-section">
+			<div className="aboutUsLogo">
 				<img src={AboutUs} alt='aboutus'/>
 			</div>
 		</div>

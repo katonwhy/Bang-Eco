@@ -9,27 +9,27 @@
 	margin:auto;
 	padding-top: 100px;
 }
-.content-section{
+.homeAboutUs{
 	float: left;
 	width: 55%;
     margin-left: 30px;
 }
-.image-section{
+.aboutUsLogo{
 	float: right;
-	width: 30%;
+	width: 20%;
     margin-right: 20px;
 }
-.image-section img{
+.aboutUsLogo img{
 	width: 100%;
 	height: auto;
 }
-.content-section .title{
+.homeAboutUs .title{
 	font-size: 18px;
     color: #002F05;
     margin: 0;
 }
 
-.content-section .content p{
+.homeAboutUs .content p{
 	margin-top: 10px;
 	font-family: sans-serif;
 	font-size: 12px;
@@ -38,54 +38,49 @@
     text-align: justify;
 }
 
-.content-section .social{
+.homeAboutUs .social{
 	margin: 40px 0;
 }
 
-.content-section .social i{
+.homeAboutUs .social i{
 	color:#27AE60;
 	font-size: 30px;
 	padding-right: 20px;
 }
-.content-section .social i:hover{
+.homeAboutUs .social i:hover{
 	color:#00910e;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 	.container{
         width: 80%;
         display: block;
         margin:auto;
         padding-top:50px;
     }
-    .content-section{
+    .homeAboutUs{
         float:none;
         width:100%;
         display: block;
         margin:auto;
     }
-    .image-section{
+    .aboutUsLogo{
         float:none;
         margin: 20px auto;
         width:50%;
         
     }
-    .image-section img{
+    .aboutUsLogo img{
         width: 100%;
         height: auto;
         display: block;
         margin:auto;
     }
-    .content-section .title{
+    .homeAboutUs .title{
         text-align: center;
         font-size: 19px;
     }
-    .content-section .content .button{
-        text-align: center;
-    }
-    .content-section .content .button a{
-        padding:9px 30px;
-    }
-    .content-section .social{
+
+    .homeAboutUs .social{
         text-align: center;
     }
 

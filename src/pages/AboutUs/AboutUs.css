@@ -1,11 +1,16 @@
 .pageAboutUs {
+    margin-top: 50px;
     margin-bottom: 150px;
+}
+
+.pageAboutUs .ourTeam {
+    top: 200px;
 }
 
 .pageAboutUs .ourTeam h1 {
     text-align: center;
     font-size: 34px;
-    color:#002F05;
+    color: #002F05;
 }
 
 .pageAboutUs .ourTeam .groupCard {
@@ -24,5 +29,21 @@
 
     .pageAboutUs .ourTeam .groupCard {
         display: grid;
+    }
+}
+
+@media screen and (max-width: 550px){
+
+    .pageAboutUs .ourTeam .groupCard {
+        display: grid;
+        margin: 0 auto;
+    }
+
+    .pageAboutUs .ourTeam .groupCard img {
+        width: 70%;
+    }
+
+    .pageAboutUs .ourTeam .groupCard name {
+        font-size: 10px;
     }
 }

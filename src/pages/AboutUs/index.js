@@ -1,7 +1,7 @@
 import React from "react";
 import HomeAboutUs from '../../components/HomeAboutUs';
 import OurTeam from "../../components/OurTeam";
-import './index.css';
+import './AboutUs.css';
 
 import Dp1 from '../../assets/Avatar1.png';
 import Dp2 from '../../assets/Avatar2.jpeg';
@@ -14,7 +14,7 @@ const PageAboutUs = () => {
         <div className="pageAboutUs">
             <HomeAboutUs />
             <div className='ourTeam'>
-                <h1 className="heading">OUR TEAM</h1>
+                <h1 className="heading">Tim Kami</h1>
                 <div className="groupCard">
                     <OurTeam img={Dp1} name='Masha' job='Project Manager' />
                     <OurTeam img={Dp2} name='Adji' job='UI Designer' />
