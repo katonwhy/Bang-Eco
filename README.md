@@ -1,7 +1,7 @@
 # Bang Eco App 
 
 <!-- PROJECT LOGO -->
-![Logo-Recovered-shadow2](https://user-images.githubusercontent.com/91068303/177029972-6d81fa17-0aa5-42e2-b9ba-c36b2f493ba5.png)
+![Logo-Recovered-shadow2](https://user-images.githubusercontent.com/91068303/177037851-c7be5864-9834-4314-8c1a-d5d411edb53f.png)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project

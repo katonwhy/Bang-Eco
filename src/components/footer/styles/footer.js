@@ -20,7 +20,7 @@ export const Wrapper = styled.div`
 export const Column1 = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: left;
+  text-align: justify;
   width: 470px;
   img{
     height: 80px;
@@ -84,11 +84,10 @@ export const Link = styled.a`
   margin-bottom: 10px;
   font-size: 16px;
   text-decoration: none;
-  // background: yellow;
-  // &:hover {
-  //     color: #ff9c00;
-  //     transition: 200ms ease-in;
-  // }
+  &:hover {
+      color: black;
+      transition: 200ms ease-in;
+  }
 `;
 
 export const Title = styled.p`
