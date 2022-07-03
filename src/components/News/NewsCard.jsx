@@ -91,7 +91,7 @@ const NewsCard = (props) => {
                                 <p className="title">{slide.title}</p>
                                 <p className="description">{slide.description}</p>
                                 <div className="btn-detail-wrap">
-                                    <button>Detail Lainnya</button>
+                                    <a href="/DetailDonationPage"><button>Detail Lainnya</button></a>
                                 </div>
                                 
                             </div>
