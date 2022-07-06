@@ -1,16 +1,16 @@
 import React from "react";
-import './navbar.css';
-import Logo from '../../AasetLogo/Logo-Recovered-shadow2.png';
+import './Navbar.css';
+import Logo from '../../assets/Logo/Logo-Recovered-shadow2.png';
 
 const navbar = () => {
     return (
         <div className="navbar">
             <nav>
                 <input id="nav-toggle" type="checkbox" />
-                <div class="logo"><img src={Logo} alt='Logo' /></div>
-                <ul class="links">
+                <div className="logo"><img src={Logo} alt='Logo' /></div>
+                <ul className="links">
                     <li><a href="./">BERANDA</a></li>
-                    <li><a href="#edukasi">EDUKASI</a></li>
+                    <li><a href="./AllEdukasi">EDUKASI</a></li>
                     <li><a href="./AllNews">BERITA</a></li>
                     <div className="dropdown">
                         <button className="dropbtn">DONASI
@@ -23,10 +23,10 @@ const navbar = () => {
                     </div>
                     <li><a href="./PageAboutUs">TENTANG KAMI</a></li>
                 </ul>
-                <label for="nav-toggle" class="icon-burger">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
+                <label htmlFor="nav-toggle" className="icon-burger">
+                    <div className="line"></div>
+                    <div className="line"></div>
+                    <div className="line"></div>
                 </label>
             </nav>
         </div>

@@ -58,7 +58,8 @@ class Education extends React.Component {
             const { posts, error } = this.state;
             return (
                 <React.Fragment>
-                <p id="info-donasi">Edukasi</p>
+                    { error && <div className="alert alert-danger" dangerouslySetInnerHTML={ this.createMarkup( error ) }/> }
+                <p>Edukasi</p>
                 { posts.length ? (
                 <div id="slider-container">   
                 <MdChevronLeft size={40} className="slider-icon left" onClick ={slideLeft}/>

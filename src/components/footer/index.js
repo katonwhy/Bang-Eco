@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Wrapper, Wrapper1, Row, Column1, Column2, Column3, Column4, Column5, Link, Title } from './Style/footer';
+import { Container, Wrapper, Wrapper1, Row, Column1, Column2, Column3, Column4, Column5, Link, Title } from './Style/Footer';
 
 export default function Footer({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;

@@ -9,7 +9,7 @@ import InfoDonasi from './components/InfoDonasi';
 import Berita from './components/News';
 import DonationArticle from './pages/AllDonation/InfoDonation';
 import NewsArticle from './pages/AllNews/News';
-import {FooterContainer} from './containers/footer';
+import {FooterContainer} from './containers/Footer';
 import Table from './components/Table';
 import Education from './components/Education/Education'
 import SinglePost from './components/SinglePost';
@@ -28,10 +28,7 @@ function App() {
           <Education />
           <HomeAboutUs />
         </Route>
-        <Route path='/post/:id'>
-          <SinglePost />
-        </Route>
-        {/* <Route exact path="/post/:id" component={SinglePost} /> */}
+        <Route exact path="/post/:id" component={SinglePost} />
         <Route exact path="/AllEdukasi" component={EducationPage} />
         <Route path='/AllNews'>
           <NewsArticle/>

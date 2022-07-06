@@ -1,6 +1,7 @@
 {
   "name": "bang-eco",
   "version": "0.1.0",
+  "homepage": "https://bangeco.my.id/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
