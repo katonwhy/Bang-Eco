@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Navbar from "./components/Navbar/navbar";
+import Navbar from "./components/navbar/navbar";
 import Hero from './components/Hero';
 import HomeAboutUs from './components/HomeAboutUs';
 import PageAboutUs from './pages/AboutUs';
@@ -28,10 +28,7 @@ function App() {
           <Education />
           <HomeAboutUs />
         </Route>
-        <Route path='/post/:id'>
-          <SinglePost />
-        </Route>
-        {/* <Route exact path="/post/:id" component={SinglePost} /> */}
+        <Route exact path="/post/:id" component={SinglePost} />
         <Route exact path="/AllEdukasi" component={EducationPage} />
         <Route path='/AllNews'>
           <NewsArticle/>
