@@ -77,7 +77,9 @@ class SinglePost extends React.Component {
 									style={{width: '50%', height: '300px', margin: 'auto'}}
                                     />
                                     <Typography variant="body2" color="text.secondary"
+
 									style={{padding: '0 20%', textAlign: 'justify', color: '#002F05'}}
+
 									>
                                         {renderHTML( post.content.rendered )} 
                                     </Typography>

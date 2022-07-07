@@ -30,7 +30,7 @@ function App() {
           <HomeAboutUs />
         </Route>
         <Route exact path="/post/:id" component={SinglePost} />
-        <Route path='/AllEducation'>
+        <Route path='/AllEdukasi'>
           <EducationPage/>
         </Route>
         <Route path='/AllNews'>

@@ -1,11 +1,11 @@
-/* * {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Work Sans';
 }
 
-:root {
+/* :root {
     --mainColor: #219653;
     --hoverColor: #0c0c0c;
     --textColor: #FFFFFF;
@@ -87,9 +87,7 @@ header .nav-btn {
 body {
     margin: 0;
     background-color: #F3FFF4;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Work Sans';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }

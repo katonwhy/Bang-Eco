@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
-
 .hero {
     top: 80px;
 }
@@ -18,9 +16,8 @@
     width: 660px;
     margin-left: 80px;
     top: 230px;
-    font-family: 'Work Sans';
     font-size: 37px;
-    font-weight: 900;
+    font-weight: 700;
     letter-spacing: 0.5px;
     color: white;
 }
