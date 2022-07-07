@@ -5,7 +5,7 @@ import "./News.css";
 const Berita = () => {
     return (
         <div>
-            <p id="info-donasi">Berita Terkini</p>
+            <p id="info-news">Berita Terkini</p>
             <div className="card">
                 <NewsCard/>
                 <div className="btn-more-wrap">

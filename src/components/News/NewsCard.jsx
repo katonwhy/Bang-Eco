@@ -8,66 +8,6 @@ import { MdChevronLeft, MdChevronRight} from 'react-icons/md';
 
 
 class NewsCard extends React.Component {
-// const CardSlider = (props) => {
-    //untuk membuat jumlah card
-    // const slides = [
-    //     {
-    //         images:'https://picsum.photos/200/300',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
-    //     {
-    //         images:'https://picsum.photos/400/300',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
-    //     {
-    //         images:'https://picsum.photos/200/400',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
-    //     {
-    //         images:'https://picsum.photos/200/500',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
-    //     {
-    //         images:'https://picsum.photos/500/400',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
-    //     {
-    //         images:'https://picsum.photos/200/100',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
-    //     {
-    //         images:'https://picsum.photos/300/700',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
-    //     {
-    //         images:'https://picsum.photos/200/900',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
-    //     {
-    //         images:'https://picsum.photos/300/800',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
-
-
-    // ];
 
     constructor( props ) {
         super( props );
@@ -82,8 +22,6 @@ class NewsCard extends React.Component {
     createMarkup = ( data ) => ({
         __html: data
     });
-    
-    // https://bangeco.dezign.id/wp-json/wp/v2/posts?categories=3&per_page=5
     
         componentDidMount() {
             const wordPressSiteURL = 'https://bangeco.dezign.id';
@@ -125,16 +63,16 @@ class NewsCard extends React.Component {
                 <div id="slider">
                         { posts.map( post => (
                                 <div className="slider-card" key={ post.id }>
-                                   <div className="card-image" style={{backgroundImage:`url(${post.better_featured_image.source_url})`}}> </div>
-                                <Link to={`/post/${post.id}`}>
+                                <div className="card-image" style={{backgroundImage:`url(${post.better_featured_image.source_url})`}}> </div>
+                                <a href={`/post/${post.id}`}>
                                 <p className="title">{renderHTML( post.title.rendered )}</p>
-                                </Link>
+                                </a>
                                 <p className="description">{renderHTML( post.excerpt.rendered )} </p>
-                                <Link to={`/post/${post.id}`}>
                                 <div className="btn-detail-wrap">
+                                <a href={`/post/${post.id}`}>
                                     <button>Selengkapnya</button>
+                                </a>
                                 </div>
-                                </Link>
                             </div> 
                         ))}
                     </div>
