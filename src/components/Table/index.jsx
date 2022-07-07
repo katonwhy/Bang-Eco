@@ -31,7 +31,7 @@ function Table() {
   const options = {
     selectableRows: 'none',
     searchAlwaysOpen: true,
-    searchPlaceholder: 'Masukan kecamatan/kelurahan anda',
+    searchPlaceholder: 'Masukan kecamatan atau kelurahan anda',
     print: false,
     download: false,
   };
