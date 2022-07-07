@@ -1,7 +1,6 @@
 import React from 'react';
 import renderHTML from "react-render-html";
 import axios from "axios";
-
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -9,7 +8,6 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Berita from './News'
-
 import HeroArticlePage from '../assets/Hero/HeroArticlePage.png';
 
 class SinglePost extends React.Component {
@@ -79,7 +77,11 @@ class SinglePost extends React.Component {
 									style={{width: '50%', height: '300px', margin: 'auto'}}
                                     />
                                     <Typography variant="body2" color="text.secondary"
+<<<<<<< HEAD
 									style={{padding: '0 200px', textAlign: 'justify', color: '#002F05'}}
+=======
+									style={{padding: '0 20%', textAlign: 'justify', color: '#002F05'}}
+>>>>>>> a7114db9a706e60a9c3788cfb0d56ace5ebc0f02
 									>
                                         {renderHTML( post.content.rendered )} 
                                     </Typography>

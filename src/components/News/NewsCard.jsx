@@ -42,13 +42,13 @@ class NewsCard extends React.Component {
     }
 
         render() { 
-            const slideLeft =()=> {
-                var slider = document.getElementById("slider");
+            const slideNewsLeft =()=> {
+                var slider = document.getElementById("sliderNews");
                 slider.scrollLeft = slider.scrollLeft - 500;
         
             }
-            const slideRight = () => {
-                var slider = document.getElementById("slider");
+            const slideNewsRight = () => {
+                var slider = document.getElementById("sliderNews");
                 slider.scrollLeft = slider.scrollLeft + 500;
                 
             }
@@ -58,8 +58,8 @@ class NewsCard extends React.Component {
                     { error && <div className="alert alert-danger" dangerouslySetInnerHTML={ this.createMarkup( error ) }/> }
                 { posts.length ? (
                 <div id="slider-container">   
-                <MdChevronLeft size={40} className="slider-icon left" onClick ={slideLeft}/>
-                <div id="slider">
+                <MdChevronLeft size={40} className="slider-icon left" onClick ={slideNewsLeft}/>
+                <div id="sliderNews">
                         { posts.map( post => (
                                 <div className="slider-card" key={ post.id }>
                                 <div className="card-image" style={{backgroundImage:`url(${post.better_featured_image.source_url})`}}> </div>
@@ -75,7 +75,7 @@ class NewsCard extends React.Component {
                             </div> 
                         ))}
                     </div>
-                    <MdChevronRight size={40} className="slider-icon right" onClick = {slideRight}/>
+                    <MdChevronRight size={40} className="slider-icon right" onClick = {slideNewsRight}/>
                     </div>
                 ) :  ''}
             </React.Fragment>

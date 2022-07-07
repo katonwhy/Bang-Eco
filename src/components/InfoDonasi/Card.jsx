@@ -7,6 +7,7 @@ import { MdChevronLeft, MdChevronRight} from 'react-icons/md';
 
 class CardSlider extends React.Component {
 
+
     constructor( props ) {
         super( props );
     

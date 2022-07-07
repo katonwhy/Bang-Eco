@@ -41,13 +41,13 @@ class Education extends React.Component {
     }
 
         render() { 
-            const slideLeft =()=> {
-                var slider = document.getElementById("slider");
-                slider.scrollLeft = slider.scrollLeft - 500;
+            const slideEduLeft =()=> {
+                var slider = document.getElementById("sliderEdu");
+                slider.scrollLeft = slider.scrollLeft - 500
         
             }
-            const slideRight = () => {
-                var slider = document.getElementById("slider");
+            const slideEduRight = () => {
+                var slider = document.getElementById("sliderEdu");
                 slider.scrollLeft = slider.scrollLeft + 500;
                 
             }
@@ -58,8 +58,8 @@ class Education extends React.Component {
                 <p id="info-edukasi">Edukasi</p>
                 { posts.length ? (
                 <div id="slider-container">   
-                <MdChevronLeft size={40} className="slider-icon left" onClick ={slideLeft}/>
-                <div id="slider">
+                <MdChevronLeft size={40} className="slider-icon left" onClick ={slideEduLeft}/>
+                <div id="sliderEdu">
                         { posts.map( post => (
                                 <div className="slider-card" key={ post.id }>
                                    <div className="card-image" style={{backgroundImage:`url(${post.better_featured_image.source_url})`}}> </div>
@@ -75,7 +75,7 @@ class Education extends React.Component {
                             </div> 
                         ))}
                     </div>
-                    <MdChevronRight size={40} className="slider-icon right" onClick = {slideRight}/>
+                    <MdChevronRight size={40} className="slider-icon right" onClick = {slideEduRight}/>
                     </div>
 
                 ) :  ''}
