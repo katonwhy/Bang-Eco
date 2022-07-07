@@ -1,4 +1,4 @@
-const data = [
+const dataJakarta = [
     {
     "wilayah": "Jakarta Barat",
     "nama_lokasi_3R/bank_sampah": "SMAN 33",
@@ -5141,4 +5141,4 @@ const data = [
     }
     ]
 
-export default data
+export default dataJakarta
