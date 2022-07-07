@@ -3,8 +3,9 @@
     width: 74%;
     height: 360px;
     margin-left: 170px;
-    margin-top: 50px;
+    margin-top: 150px;
 }
+
 
 
 #slider {
@@ -27,6 +28,11 @@
     align-items: center;
 }
 
+.slider-content {
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
 .card-image {
     width: 100%;
     background-size: cover;
@@ -35,6 +41,29 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+
+a {
+    text-decoration: none;
+    color: rgb(69, 67, 67);
+}
+ /* a:hover{
+    color: white;
+ } */
+
+p.title {
+    font-weight: 700;
+   
+}
+
+p.title:hover {
+    color: white;
+    
+}
+
+* {
+    font-family:'Poppins',sans-serif;
+} 
 
 .organization,
 .title,
@@ -51,6 +80,7 @@
 .title {
     font-weight: 500;
     font-size: larger;
+    text-decoration: none;
 }
 
 .description {
@@ -61,8 +91,6 @@
 .btn-detail-wrap {
     display: flex;
     justify-content: flex-end;
-    margin-right: 10px;
-
 }
 
 .btn-detail-wrap button {
@@ -84,12 +112,12 @@
     background-color: white;
     color: #219653;
     border: 3px solid white;
+    cursor: pointer;
 }
 
 .btn-more-wrap {
     display: flex;
     justify-content: center;
-    margin-right: 10px;
 
 }
 
@@ -148,12 +176,12 @@
     margin-left: 5px;
     margin-right: 10px;
     box-shadow: 2px 2px 2px rgb(0 0 0 / 12%);
-    cursor: pointer;
+    
 }
 
 .slider-card:hover {
     background-color: #048853;
-    color: white;
+    cursor:default;
 }
 
 
