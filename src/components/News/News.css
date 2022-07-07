@@ -1,13 +1,10 @@
-
-
-
 /*untuk buat container yang ditengah */
 #slider-container {
     width: 74%;
     height: 360px;
-    margin-left: 170px ;
+    margin-left: 170px;
     margin-top: 50px;
-    
+
 }
 
 
@@ -20,7 +17,7 @@
     scroll-behavior: smooth;
 }
 
-#sliderNews::-webkit-scrollbar{
+#sliderNews::-webkit-scrollbar {
     display: none;
 }
 
@@ -29,7 +26,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    
+
 }
 
 .card-image {
@@ -41,8 +38,12 @@
     border-top-right-radius: 10px;
 }
 
-.organization, .title, .description {
+.organization,
+.title,
+.description {
     margin: 5px 0px 5px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
 }
 
@@ -53,7 +54,7 @@
 .title {
     font-weight: 500;
     font-size: larger;
-    
+
 }
 
 .description {
@@ -65,12 +66,12 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 10px;
-   
+
 }
 
 .btn-detail-wrap button {
     margin-top: 20px;
-    background-color:#27AE60;
+    background-color: #27AE60;
     width: 120px;
     font-size: 15px;
     height: 35px;
@@ -79,13 +80,13 @@
     text-align: center;
     border-radius: 30px;
     color: white;
-    margin-bottom: 20px; 
-  
+    margin-bottom: 20px;
+
 }
 
 .btn-detail-wrap button:hover {
     background-color: white;
-    color:#219653;
+    color: #219653;
     border: 3px solid white;
 }
 
@@ -93,12 +94,12 @@
     display: flex;
     justify-content: center;
     margin-right: 10px;
-   
+
 }
 
 .btn-more-wrap button {
     margin-top: 20px;
-    background-color:#27AE60;
+    background-color: #27AE60;
     width: 200px;
     font-size: 15px;
     height: 35px;
@@ -107,17 +108,19 @@
     text-align: center;
     border-radius: 30px;
     color: white;
-    margin-bottom: 20px; 
-  
+    margin-bottom: 20px;
+
 }
 
 .btn-more-wrap button:hover {
     background-color: white;
-    color:#219653;
+    color: #219653;
     border: 3px solid white;
 }
+
 /* untuk ukuran dan tempat dari icon panah */
-.slider-icon.left, .slider-icon.right{
+.slider-icon.left,
+.slider-icon.right {
     background: white;
     border-radius: 100%;
     position: absolute;
@@ -134,18 +137,19 @@
 
 }
 
-.slider-icon.left:hover , .slider-icon.right:hover{
+.slider-icon.left:hover,
+.slider-icon.right:hover {
     opacity: 1;
 }
 
 /*untuk ukuran card */
-.slider-card{
+.slider-card {
     width: 300px;
     height: 335px;
-    background:white ;
+    background: white;
     border-radius: 10px;
     display: inline-block;
-    margin-left:5px;
+    margin-left: 5px;
     margin-right: 10px;
     box-shadow: 2px 2px 2px rgb(0 0 0 / 12%);
     cursor: pointer;
@@ -157,7 +161,7 @@
 }
 
 
-#info-news{
+#info-news {
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 1000;
