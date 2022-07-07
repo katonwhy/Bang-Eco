@@ -3,7 +3,7 @@ import React from 'react';
 import MUIDataTable from 'mui-datatables';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import data from '../../data';
-import './Table.css'
+import './table.css'
 
 function Table() {
   const columns =  [{

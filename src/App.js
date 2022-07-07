@@ -11,9 +11,9 @@ import DonationArticle from './pages/AllDonation/InfoDonation';
 import NewsArticle from './pages/AllNews/News';
 import {FooterContainer} from './containers/Footer';
 import Table from './components/Table';
-import Education from './components/Education/Education'
+import Education from './components/Education'
 import SinglePost from './components/SinglePost';
-import EducationPage from './components/Education/EducationPage';
+import EducationPage from './pages/AllEducation/Education';
 import DetailDonasi from './components/PageDetailDonasi';
 
 function App() {
@@ -30,7 +30,9 @@ function App() {
           <HomeAboutUs />
         </Route>
         <Route exact path="/post/:id" component={SinglePost} />
-        <Route exact path="/AllEdukasi" component={EducationPage} />
+        <Route path='/AllEducation'>
+          <EducationPage/>
+        </Route>
         <Route path='/AllNews'>
           <NewsArticle/>
         </Route>

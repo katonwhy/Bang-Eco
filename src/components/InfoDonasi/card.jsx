@@ -1,8 +1,7 @@
 import React from 'react';
 import axios from 'axios';
-import { Link } from '@reach/router';
 import renderHTML from 'react-render-html';
-import "./Slider.css";
+import "./slider.css";
 import { MdChevronLeft, MdChevronRight} from 'react-icons/md';
 
 
