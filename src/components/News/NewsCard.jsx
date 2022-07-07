@@ -1,6 +1,5 @@
 import React from 'react';
 import axios from 'axios';
-import { Link } from '@reach/router';
 import renderHTML from 'react-render-html';
 
 import "./News.css";
