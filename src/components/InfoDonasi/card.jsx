@@ -9,10 +9,7 @@ import { MdChevronLeft, MdChevronRight} from 'react-icons/md';
 
 class CardSlider extends React.Component {
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 07810a41135614b3ba47a2830075826be41f9b19
     constructor( props ) {
         super( props );
     
