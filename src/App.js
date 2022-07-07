@@ -14,6 +14,7 @@ import Table from './components/Table';
 import Education from './components/Education/Education'
 import SinglePost from './components/SinglePost';
 import EducationPage from './components/Education/EducationPage';
+import DetailDonasi from './components/PageDetailDonasi';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
         <Route exact path="/AllEdukasi" component={EducationPage} />
         <Route path='/AllNews'>
           <NewsArticle/>
+        </Route>
+        <Route path='/PageDetailDonasi'>
+          <DetailDonasi />
         </Route>
         <Route path='/ReqDonation'>
           <ReqDonation />

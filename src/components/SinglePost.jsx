@@ -8,6 +8,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
+import Berita from './News'
 
 class SinglePost extends React.Component {
 
@@ -59,11 +60,13 @@ class SinglePost extends React.Component {
                                 <Card key={ post.id }>
                                     <CardMedia
                                     component="img"
-                                    height="auto"
                                     image={post.better_featured_image.source_url}
+									style={{width: '50%', height: '200px'}}
                                     />
                                     <CardContent>
-                                    <Typography gutterBottom variant="h1">
+                                    <Typography gutterBottom variant="h3"
+									style={{margin: '80px auto', fontSize: 34}}
+									>
                      
                                         {renderHTML( post.title.rendered )}
                   
@@ -75,7 +78,9 @@ class SinglePost extends React.Component {
                             </Card> 
                             </Grid>
                     </Grid>
+					<Berita/>
                     </Box>
+					
 				) : '' }
 			</React.Fragment>
 		)

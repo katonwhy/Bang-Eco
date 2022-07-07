@@ -1,6 +1,6 @@
 import React from "react";
 import './PageDetailDonasi.css';
-import AboutUs from '../../assets/HeroReqDonationPage.png';
+import AboutUs from '../../assets/Hero/HeroReqDonationPage.png';
 // import AboutUss from '../../assets/AboutUs.png';
 
 // import { Button } from '@mui/material';
