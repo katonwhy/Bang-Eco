@@ -4,7 +4,7 @@ import "./Slider.css";
 
 const InfoDonasi = () => {
     return (
-        <div>
+        <div className='layout'>
             <p id="info-edukasi">Informasi Donasi</p>
             <div className="card">
                 <CardSlider/>
