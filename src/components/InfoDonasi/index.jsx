@@ -1,5 +1,5 @@
 import React from 'react';
-import CardSlider from "./card";
+import CardSlider from "./Card";
 import "./Slider.css";
 
 const InfoDonasi = () => {
