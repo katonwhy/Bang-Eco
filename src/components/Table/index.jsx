@@ -18,6 +18,15 @@ function TableComponent() {
   const [buttonStyle4, setButtonStyle4] = useState('outlined')
   const [buttonStyle5, setButtonStyle5] = useState('outlined')
 
+// <<<<<<< HEAD
+//   const options = {
+//     selectableRows: 'none',
+//     searchAlwaysOpen: true,
+//     searchPlaceholder: 'Masukan kecamatan atau kelurahan anda',
+//     print: false,
+//     download: false,
+//   };
+// =======
   const handleBekasi = () => {
     dispatch(saveLocation('bekasi'))
     setButtonStyle1('contained')
