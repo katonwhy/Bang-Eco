@@ -1,6 +1,6 @@
 import React from 'react';
 import CardSlider from "./card";
-import "./slider.css";
+import "./Slider.css";
 
 const InfoDonasi = () => {
     return (

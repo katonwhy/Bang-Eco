@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../components/footer'
+import Footer from '../components/Footer'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -11,7 +11,7 @@ export function FooterContainer() {
             <Footer.Wrapper>
                 <Footer.Row>
                     <Footer.Column1>
-                        <Footer.Title><img src={require("../AasetLogo/Logo-Recovered-shadow2.png")} alt="" /></Footer.Title>
+                        <Footer.Title><img src={require("../assets/Logo/Logo-Recovered-shadow2.png")} alt="" /></Footer.Title>
                         <Footer.Link href="#">Bang Eco adalah sebuah website yang bertujuan untuk memberikan edukasi tentang pengelolaan sampah dengan baik dan informasi terkini seputar sampah kepada masyarakat. Mulai dari edukasi mengenai cara pemisahan limbah atau sampah yang reusable dan zero waste, cara penerapan zero waste lifestyle hingga dampak-dampak positif dan negatif yang akan diterima kita sebagai manusia dan lingkungan.</Footer.Link>
                     </Footer.Column1>
                     <Footer.Column2>

@@ -17,6 +17,7 @@
 .aboutUsLogo{
 	float: right;
 	width: 20%;
+    margin-top: 30px;
     margin-right: 20px;
 }
 .aboutUsLogo img{
