@@ -10,7 +10,7 @@ import Berita from './components/News';
 import DonationArticle from './pages/AllDonation/InfoDonation';
 import NewsArticle from './pages/AllNews/News';
 import {FooterContainer} from './containers/Footer';
-import Table from './components/Table';
+import TableComponent from './components/Table';
 import Education from './components/Education'
 import SinglePost from './components/SinglePost';
 import EducationPage from './pages/AllEducation/Education';
@@ -23,7 +23,7 @@ function App() {
       <Switch>
         <Route exact path='/'>
           <Hero />
-          <Table />
+          <TableComponent />
           <InfoDonasi/>
           <Berita/>
           <Education />
