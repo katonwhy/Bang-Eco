@@ -11,7 +11,7 @@
 }
 
 
-#slider {
+#sliderEdu {
     width: 100%;
     height: 100%;
     white-space: nowrap;
@@ -20,7 +20,7 @@
     scroll-behavior: smooth;
 }
 
-#slider::-webkit-scrollbar{
+#sliderEdu::-webkit-scrollbar{
     display: none;
 }
 

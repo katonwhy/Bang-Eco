@@ -11,7 +11,7 @@
 }
 
 
-#slider {
+#sliderNews {
     width: 100%;
     height: 100%;
     white-space: nowrap;
@@ -20,7 +20,7 @@
     scroll-behavior: smooth;
 }
 
-#slider::-webkit-scrollbar{
+#sliderNews::-webkit-scrollbar{
     display: none;
 }
 
@@ -53,6 +53,7 @@
 .title {
     font-weight: 500;
     font-size: larger;
+    
 }
 
 .description {

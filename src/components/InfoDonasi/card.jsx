@@ -8,66 +8,7 @@ import { MdChevronLeft, MdChevronRight} from 'react-icons/md';
 
 
 class CardSlider extends React.Component {
-// const CardSlider = (props) => {
-    //untuk membuat jumlah card
-    // const slides = [
-    //     {
-    //         images:'https://picsum.photos/200/300',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
-    //     {
-    //         images:'https://picsum.photos/400/300',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
-    //     {
-    //         images:'https://picsum.photos/200/400',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
-    //     {
-    //         images:'https://picsum.photos/200/500',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
-    //     {
-    //         images:'https://picsum.photos/500/400',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
-    //     {
-    //         images:'https://picsum.photos/200/100',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
-    //     {
-    //         images:'https://picsum.photos/300/700',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
-    //     {
-    //         images:'https://picsum.photos/200/900',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
-    //     {
-    //         images:'https://picsum.photos/300/800',
-    //         organization: "Organization Name",
-    //         title: "Card Title",
-    //         description: "Lorem ipsum dolor sit amet"
-    //     },
 
-
-    // ];
 
     constructor( props ) {
         super( props );

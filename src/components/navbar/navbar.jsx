@@ -2,7 +2,7 @@ import React from "react";
 import './navbar.css';
 import Logo from '../../AasetLogo/Logo-Recovered-shadow2.png';
 
-const navbar = () => {
+const Navbar = () => {
     return (
         <div className="navbar">
             <nav>
@@ -32,4 +32,4 @@ const navbar = () => {
         </div>
     )
 }
-export default navbar;
+export default Navbar;
