@@ -1,8 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import { Link } from '@reach/router';
 import renderHTML from 'react-render-html';
-// import Moment from 'react-moment';
 
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -14,7 +12,6 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 
 class EducationPage extends React.Component {
-    // state = {  } 
 
 constructor( props ) {
     super( props );
@@ -29,8 +26,6 @@ constructor( props ) {
 createMarkup = ( data ) => ({
     __html: data
 });
-
-// https://bangeco.dezign.id/wp-json/wp/v2/posts?categories=3&per_page=5
 
     componentDidMount() {
         const wordPressSiteURL = 'https://bangeco.dezign.id';
@@ -63,7 +58,6 @@ createMarkup = ( data ) => ({
                    <Grid container spacing={2}>
                         { posts.map( post => (
                             <Grid item xs={4}>
-                                {/* <Card key={ post.id } sx={{ maxWidth: 345 }}> */}
                                 <Card key={ post.id }>
                                     <CardMedia
                                     component="img"
@@ -72,18 +66,18 @@ createMarkup = ( data ) => ({
                                     />
                                     <CardContent>
                                     <Typography gutterBottom variant="h5">
-                                    <Link to={`/post/${post.id}`}>
+                                        <a href={`/post/${post.id}`}>
                                         {renderHTML( post.title.rendered )}
-                                    </Link>
+                                        </a>
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
                                         {renderHTML( post.excerpt.rendered )} 
                                     </Typography>
                                     </CardContent>
                                     <CardActions>
-                                        <Link to={`/post/${post.id}`}>
+                                         <a href={`/post/${post.id}`}>
                                         <Button size="small">Selengkapnya</Button>
-                                        </Link>
+                                        </a>
                                     </CardActions>
                             </Card> 
                             </Grid>

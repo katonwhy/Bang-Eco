@@ -1,5 +1,4 @@
-// import React from 'react';
-import React, { Component } from 'react';
+import React from 'react';
 import renderHTML from "react-render-html";
 import axios from "axios";
 
@@ -49,7 +48,7 @@ class SinglePost extends React.Component {
 
 		return(
 			<React.Fragment>
-
+				
 				{ error && <div className="alert alert-danger" dangerouslySetInnerHTML={ this.createMarkup( error ) }/> }
 				{ Object.keys( post ).length ? (
 
