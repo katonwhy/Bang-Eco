@@ -7,7 +7,6 @@ import "./Education.css";
 import { MdChevronLeft, MdChevronRight} from 'react-icons/md';
 
 class Education extends React.Component {
-    // state = {  } 
 
     constructor( props ) {
         super( props );
@@ -22,8 +21,6 @@ class Education extends React.Component {
     createMarkup = ( data ) => ({
         __html: data
     });
-    
-    // https://bangeco.dezign.id/wp-json/wp/v2/posts?categories=3&per_page=5
     
         componentDidMount() {
             const wordPressSiteURL = 'https://bangeco.dezign.id';
@@ -59,7 +56,7 @@ class Education extends React.Component {
             return (
                 <React.Fragment>
                     { error && <div className="alert alert-danger" dangerouslySetInnerHTML={ this.createMarkup( error ) }/> }
-                <p>Edukasi</p>
+                <p id="info-edukasi">Edukasi</p>
                 { posts.length ? (
                 <div id="slider-container">   
                 <MdChevronLeft size={40} className="slider-icon left" onClick ={slideLeft}/>
@@ -67,15 +64,15 @@ class Education extends React.Component {
                         { posts.map( post => (
                                 <div className="slider-card" key={ post.id }>
                                    <div className="card-image" style={{backgroundImage:`url(${post.better_featured_image.source_url})`}}> </div>
-                                <Link to={`/post/${post.id}`}>
+                                   <a href={`/post/${post.id}`}>
                                 <p className="title">{renderHTML( post.title.rendered )}</p>
-                                </Link>
+                                </a>
                                 <p className="description">{renderHTML( post.excerpt.rendered )} </p>
-                                <Link to={`/post/${post.id}`}>
                                 <div className="btn-detail-wrap">
+                                     <a href={`/post/${post.id}`}>
                                     <button>Selengkapnya</button>
+                                    </a>
                                 </div>
-                                </Link>
                             </div> 
                         ))}
                     </div>

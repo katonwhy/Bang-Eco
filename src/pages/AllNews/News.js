@@ -72,18 +72,18 @@ createMarkup = ( data ) => ({
                                     />
                                     <CardContent>
                                     <Typography gutterBottom variant="h5">
-                                    <Link to={`/post/${post.id}`}>
+                                    <a href={`/post/${post.id}`}>
                                         {renderHTML( post.title.rendered )}
-                                    </Link>
+                                    </a>
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
                                         {renderHTML( post.excerpt.rendered )} 
                                     </Typography>
                                     </CardContent>
                                     <CardActions>
-                                        <Link to={`/post/${post.id}`}>
+                                    <a href={`/post/${post.id}`}>
                                         <Button size="small">Selengkapnya</Button>
-                                        </Link>
+                                    </a>
                                     </CardActions>
                             </Card> 
                             </Grid>

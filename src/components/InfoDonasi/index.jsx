@@ -1,11 +1,11 @@
 import React from 'react';
-import CardSlider from "./Card";
+import CardSlider from "./card";
 import "./Slider.css";
 
 const InfoDonasi = () => {
     return (
         <div>
-            <p>Informasi Donasi</p>
+            <p id="info-edukasi">Informasi Donasi</p>
             <div className="card">
                 <CardSlider/>
                 <div className="btn-more-wrap">
