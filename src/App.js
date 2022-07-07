@@ -10,10 +10,10 @@ import Berita from './components/News';
 import DonationArticle from './pages/AllDonation/InfoDonation';
 import NewsArticle from './pages/AllNews/News';
 import {FooterContainer} from './containers/Footer';
-import Table from './components/Table';
-import Education from './components/Education/Education'
+import TableComponent from './components/Table';
+import Education from './components/Education'
 import SinglePost from './components/SinglePost';
-import EducationPage from './components/Education/EducationPage';
+import EducationPage from './pages/AllEducation/Education';
 import DetailDonasi from './components/PageDetailDonasi';
 
 function App() {
@@ -23,14 +23,16 @@ function App() {
       <Switch>
         <Route exact path='/'>
           <Hero />
-          <Table />
+          <TableComponent />
           <InfoDonasi/>
           <Berita/>
           <Education />
           <HomeAboutUs />
         </Route>
         <Route exact path="/post/:id" component={SinglePost} />
-        <Route exact path="/AllEdukasi" component={EducationPage} />
+        <Route path='/AllEdukasi'>
+          <EducationPage/>
+        </Route>
         <Route path='/AllNews'>
           <NewsArticle/>
         </Route>

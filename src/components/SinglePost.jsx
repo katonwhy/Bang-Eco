@@ -78,7 +78,6 @@ class SinglePost extends React.Component {
                                     />
                                     <Typography variant="body2" color="text.secondary"
 
-
 									style={{padding: '0 20%', textAlign: 'justify', color: '#002F05'}}
 
 									>
