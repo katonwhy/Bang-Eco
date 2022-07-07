@@ -9,6 +9,7 @@
     right: 0;
     margin-bottom: 100px;
     width: 100%;
+    height: 500px;
     position: relative;
 }
 
@@ -17,14 +18,17 @@
     width: 660px;
     margin-left: 80px;
     top: 230px;
-    font-family: 'Titan One', cursive;
+    font-family: 'Work Sans';
     font-size: 37px;
-    font-weight: 300;
+    font-weight: 900;
     letter-spacing: 0.5px;
     color: white;
 }
 
 @media (max-width: 1000px) {
+    .hero img{
+        width: 1280px;
+    }
     .hero .heroText h1{
         top: 190px;
         font-size: 30px;
