@@ -9,7 +9,6 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Berita from './News'
 import HeroArticlePage from '../assets/Hero/HeroArticlePage.png';
-import './SinglePost.css';
 
 class SinglePost extends React.Component {
 
