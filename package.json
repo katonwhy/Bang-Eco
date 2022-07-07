@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://bangeco.my.id/",
   "private": true,
-  "main": "./src/index.tsx",
+  "main": "src/index.tsx",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
