@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
-import Navbar from "./components/navbar/navbar";
+import Navbar from "./components/Navbar";
 import Hero from './components/Hero';
 import HomeAboutUs from './components/HomeAboutUs';
 import PageAboutUs from './pages/AboutUs';
@@ -9,11 +9,12 @@ import InfoDonasi from './components/InfoDonasi';
 import Berita from './components/News';
 import DonationArticle from './pages/AllDonation/InfoDonation';
 import NewsArticle from './pages/AllNews/News';
-import {FooterContainer} from './containers/footer';
+import {FooterContainer} from './containers/Footer';
 import Table from './components/Table';
 import Education from './components/Education/Education'
 import SinglePost from './components/SinglePost';
 import EducationPage from './components/Education/EducationPage';
+import DetailDonasi from './components/PageDetailDonasi';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
         <Route exact path="/AllEdukasi" component={EducationPage} />
         <Route path='/AllNews'>
           <NewsArticle/>
+        </Route>
+        <Route path='/PageDetailDonasi'>
+          <DetailDonasi />
         </Route>
         <Route path='/ReqDonation'>
           <ReqDonation />

@@ -3,11 +3,11 @@ import HomeAboutUs from '../../components/HomeAboutUs';
 import OurTeam from "../../components/OurTeam";
 import './AboutUs.css';
 
-import Dp1 from '../../assets/Avatar1.png';
-import Dp2 from '../../assets/Avatar2.jpeg';
-import Dp3 from '../../assets/Avatar3.jpg';
-import Dp4 from '../../assets/Avatar4.png';
-import Dp5 from '../../assets/Avatar5.jpeg';
+import Dp1 from '../../assets/OurTeamPhotos/Avatar1.png';
+import Dp2 from '../../assets/OurTeamPhotos/Avatar2.jpeg';
+import Dp3 from '../../assets/OurTeamPhotos/Avatar3.jpg';
+import Dp4 from '../../assets/OurTeamPhotos/Avatar4.png';
+import Dp5 from '../../assets/OurTeamPhotos/Avatar5.jpeg';
 
 const PageAboutUs = () => {
     return (

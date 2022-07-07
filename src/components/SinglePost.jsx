@@ -8,6 +8,9 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
+import Berita from './News'
+
+import HeroArticlePage from '../assets/Hero/HeroArticlePage.png';
 
 class SinglePost extends React.Component {
 
@@ -56,26 +59,37 @@ class SinglePost extends React.Component {
                     <Grid container spacing={2}>
                     <Grid item xs={12}>
                                 {/* <Card key={ post.id } sx={{ maxWidth: 345 }}> */}
-                                <Card key={ post.id }>
+                                <Card style={{padding: '80px 0'}} key={ post.id }>
                                     <CardMedia
                                     component="img"
-                                    height="auto"
-                                    image={post.better_featured_image.source_url}
+                                    image={HeroArticlePage}
+									style={{width: '100%', height: '300px', margin: '0'}}
                                     />
                                     <CardContent>
-                                    <Typography gutterBottom variant="h1">
+                                    <Typography gutterBottom variant="h1"
+									style={{margin: '30px auto', fontSize: 30, fontWeight: 700, textAlign: 'center'}}
+									>
                      
                                         {renderHTML( post.title.rendered )}
                   
                                     </Typography>
-                                    <Typography variant="body2" color="text.secondary">
+									<CardMedia
+                                    component="img"
+                                    image={post.better_featured_image.source_url}
+									style={{width: '50%', height: '300px', margin: 'auto'}}
+                                    />
+                                    <Typography variant="body2" color="text.secondary"
+									style={{padding: '0 200px', textAlign: 'justify', color: '#002F05'}}
+									>
                                         {renderHTML( post.content.rendered )} 
                                     </Typography>
                                     </CardContent>
                             </Card> 
                             </Grid>
                     </Grid>
+					<Berita/>
                     </Box>
+					
 				) : '' }
 			</React.Fragment>
 		)
