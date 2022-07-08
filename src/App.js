@@ -12,7 +12,7 @@ import NewsArticle from './pages/AllNews/News';
 import {FooterContainer} from './containers/Footer';
 import TableComponent from './components/Table';
 import Education from './components/Education'
-import SinglePost from './components/SinglePost';
+import SinglePost from './pages/SinglePost/SinglePost';
 import EducationPage from './pages/AllEducation/Education';
 import DetailDonasi from './components/PageDetailDonasi';
 

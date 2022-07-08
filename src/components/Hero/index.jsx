@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="hero">
             <img src={HeroImage} alt='HeroImage' />
             <div className="heroText">
-                <h1>Mari menjaga lingkungan<br/>dengan mengolah sampah anda!</h1>
+                <h1>Mari Menjaga Lingkungan<br/>dengan Mengolah Sampah Anda!</h1>
             </div>
         </div>
     )    
