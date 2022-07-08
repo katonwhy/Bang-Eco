@@ -1,5 +1,5 @@
 /*untuk buat container yang ditengah */
-#slider-container {
+#sliderNews-container {
     width: 74%;
     height: 360px;
     margin-left: 170px;
@@ -22,7 +22,7 @@
 }
 
 /*untuk membuat icon panah jadi di tengah container*/
-#slider-container {
+#sliderNews-container {
     position: relative;
     display: flex;
     align-items: center;

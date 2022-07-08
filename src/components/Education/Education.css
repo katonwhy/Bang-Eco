@@ -1,5 +1,5 @@
 /*untuk buat container yang ditengah */
-#slider-container {
+#sliderEdu-container {
     width: 74%;
     height: 360px;
     margin-left: 170px;
@@ -22,10 +22,23 @@
 }
 
 /*untuk membuat icon panah jadi di tengah container*/
-#slider-container {
+#sliderEdu-container {
     position: relative;
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 787px) {
+    #sliderEdu-container {
+        width: 85%;
+        height: 360px;
+        margin-left: 40px;
+        margin-top: 50px;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    
 
 }
 
@@ -190,3 +203,4 @@ p.title:hover {
     text-align: center;
     margin-top: 60px;
 }
+
