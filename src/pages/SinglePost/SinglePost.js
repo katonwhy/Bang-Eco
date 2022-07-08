@@ -7,8 +7,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
-import Berita from './News'
-import HeroArticlePage from '../assets/Hero/HeroArticlePage.png';
+import Berita from '../../components/News'
+import HeroArticlePage from '../../assets/Hero/HeroArticlePage.png';
 
 class SinglePost extends React.Component {
 
