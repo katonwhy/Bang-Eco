@@ -183,7 +183,6 @@ p.title:hover {
 
 
 #info-news {
-    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 1000;
     font-size: 34px;
@@ -191,4 +190,5 @@ p.title:hover {
     letter-spacing: -0.02em;
     color: #002F05;
     text-align: center;
+    margin-top: 60px;
 }
