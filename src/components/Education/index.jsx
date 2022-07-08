@@ -63,7 +63,7 @@ class Education extends React.Component {
                         { posts.map( post => (
                                 <div className="slider-card" key={ post.id }>
                                    <div className="card-image" style={{backgroundImage:`url(${post.better_featured_image.source_url})`}}> </div>
-                                   
+                                
                                 <p className="title">{renderHTML( post.title.rendered )}</p>
                                 
                                 <p className="description">{renderHTML( post.excerpt.rendered )} </p>
