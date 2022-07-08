@@ -13,6 +13,7 @@
 	float: left;
 	width: 55%;
     margin-left: 30px;
+    font-family: 'Work Sans';
 }
 .aboutUsLogo{
 	float: right;
@@ -32,7 +33,6 @@
 
 .homeAboutUs .content p{
 	margin-top: 10px;
-	font-family: sans-serif;
 	font-size: 12px;
 	line-height: 1.5;
     color: #002F05;

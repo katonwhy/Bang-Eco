@@ -24,9 +24,9 @@ export function FooterContainer() {
                     </Footer.Column2>
                     <Footer.Column3>
                         <Footer.Title>HUBUNGI KAMI</Footer.Title>
-                        <Footer.Link href="#telp">Telp: 08123456789</Footer.Link>
-                        <Footer.Link href="#email">Email: bangeco@email.com</Footer.Link>
-                        <Footer.Link href="#alamat">Alamat: Jl. Jendral Sudirman No.10, Jakarta</Footer.Link>
+                        <Footer.Link>Telp: 08123456789</Footer.Link>
+                        <Footer.Link>Email: bangeco@email.com</Footer.Link>
+                        <Footer.Link>Alamat: Jl. Jendral Sudirman No.10, Jakarta</Footer.Link>
                         <Footer.Wrapper1>
                             <Footer.Column5><Footer.Link href="https://www.facebook.com/"><FacebookIcon fontSize='medium'/></Footer.Link></Footer.Column5>
                             <Footer.Column5><Footer.Link href="https://www.twitter.com/"><TwitterIcon fontSize='medium'/></Footer.Link></Footer.Column5>
@@ -39,7 +39,7 @@ export function FooterContainer() {
 
             <Footer.Wrapper>
                 <Footer.Column4>
-                    <Footer.Link href="#">Copyright © 2022. Bang Eco. All rights reserved.</Footer.Link>
+                    <Footer.Link>Copyright © 2022. Bang Eco. All rights reserved.</Footer.Link>
                 </Footer.Column4>
             </Footer.Wrapper>
         </Footer>

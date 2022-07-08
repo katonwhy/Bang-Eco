@@ -15,10 +15,3 @@ import InfoDonasi from './index';
         const Selengkapnya = screen.getByRole('button', { name: 'Lihat Selengkapnya' })
         expect(Selengkapnya).toBeEnabled();
       })
-
-
-
-
-   
-      
-

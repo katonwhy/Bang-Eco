@@ -42,7 +42,7 @@ nav .links a {
     font-size: 17px;
     font-weight: bold;
     color: #fff;
-    text-decoration: none;
+text-decoration: none;
 }
 
 nav .links a:hover {
@@ -106,7 +106,7 @@ nav .dropdown-content a {
     float: none;
     color: #219653;
     padding: 12px 16px;
-    text-decoration: none;
+    /* text-decoration: none; */
     display: block;
     text-align: left;
 }

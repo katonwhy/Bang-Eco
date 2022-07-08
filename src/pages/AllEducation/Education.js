@@ -54,10 +54,14 @@ createMarkup = ( data ) => ({
             <React.Fragment>
                 { error && <div className="alert alert-danger" dangerouslySetInnerHTML={ this.createMarkup( error ) }/> }
                 { posts.length ? (
-                <Box sx={{ flexGrow: 1 }}>
+                <Box margin='100px 100px' sx={{ flexGrow: 1 }}>
+                    <Typography gutterBottom variant="h1"
+					style={{margin: '30px auto', fontSize: 30, fontWeight: 700, textAlign: ''}}
+                    >All Educations
+                    </Typography>
                    <Grid container spacing={2}>
                         { posts.map( post => (
-                            <Grid item xs={4}>
+                            <Grid item xl={3} md={4} sm={6} xs={12}>
                                 <Card key={ post.id }>
                                     <CardMedia
                                     component="img"

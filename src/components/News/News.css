@@ -38,6 +38,27 @@
     border-top-right-radius: 10px;
 }
 
+
+a {
+    text-decoration: none;
+    color: rgb(69, 67, 67);
+}
+ /* a:hover{
+    color: white;
+ } */
+
+p.title {
+    font-weight: 700;
+    
+    
+   
+}
+
+p.title:hover {
+    color: white;
+    
+}
+
 .organization,
 .title,
 .description {
@@ -162,7 +183,6 @@
 
 
 #info-news {
-    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 1000;
     font-size: 34px;
@@ -170,4 +190,5 @@
     letter-spacing: -0.02em;
     color: #002F05;
     text-align: center;
+    margin-top: 60px;
 }
