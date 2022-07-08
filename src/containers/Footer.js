@@ -12,8 +12,8 @@ export function FooterContainer() {
                 <Footer.Row>
                     <Footer.Column1>
                         <Footer.Title><img src={require("../assets/Logo/Logo-Recovered-shadow2.png")} alt="" /></Footer.Title>
-                        <Footer.Text>Bang Eco adalah sebuah website yang bertujuan untuk memberikan edukasi tentang pengelolaan sampah dengan baik dan informasi terkini seputar sampah kepada masyarakat. Mulai dari edukasi mengenai cara pemisahan limbah atau sampah yang reusable dan zero waste, cara penerapan zero waste lifestyle hingga dampak-dampak positif dan negatif yang akan diterima kita sebagai manusia dan lingkungan.</Footer.Text>
-                    </Footer.Column1>
+                        <Footer.Link>Bang Eco adalah sebuah website yang bertujuan untuk memberikan edukasi tentang pengelolaan sampah dengan baik dan informasi terkini seputar sampah kepada masyarakat. Mulai dari edukasi mengenai cara pemisahan limbah atau sampah yang reusable dan zero waste, cara penerapan zero waste lifestyle hingga dampak-dampak positif dan negatif yang akan diterima kita sebagai manusia dan lingkungan.</Footer.Link>
+                        </Footer.Column1>
                     <Footer.Column2>
                         <Footer.Title>MENU</Footer.Title>
                         <Footer.Link href="./">Beranda</Footer.Link>
