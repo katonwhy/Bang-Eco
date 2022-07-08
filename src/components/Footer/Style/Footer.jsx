@@ -4,8 +4,10 @@ export const Container = styled.div`
   margin-top: 10px;
   padding: 5px 80px;
   background-color: #219653;
+  padding:  20px 30px;
   @media (max-width: 1000px) {
-    padding: 20px 30px;
+    padding:  20px 30px;
+
   }
 `;
 
