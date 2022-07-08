@@ -57,7 +57,7 @@ class Education extends React.Component {
                     { error && <div className="alert alert-danger" dangerouslySetInnerHTML={ this.createMarkup( error ) }/> }
                 <p id="info-edukasi">Edukasi</p>
                 { posts.length ? (
-                <div id="slider-container">   
+                <div id="sliderEdu-container">   
                 <MdChevronLeft size={40} className="slider-icon left" onClick ={slideEduLeft}/>
                 <div id="sliderEdu">
                         { posts.map( post => (

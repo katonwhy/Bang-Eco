@@ -57,7 +57,7 @@ class CardSlider extends React.Component {
                 <React.Fragment>
                     { error && <div className="alert alert-danger" dangerouslySetInnerHTML={ this.createMarkup( error ) }/> }
                 { posts.length ? (
-                <div id="slider-container">   
+                <div id="sliderInfo-container">   
                 <MdChevronLeft size={40} className="slider-icon left" onClick ={slideLeft}/>
                 <div id="slider">
                         { posts.map( post => (
