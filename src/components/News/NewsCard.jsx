@@ -57,7 +57,7 @@ class NewsCard extends React.Component {
                 <React.Fragment>
                     { error && <div className="alert alert-danger" dangerouslySetInnerHTML={ this.createMarkup( error ) }/> }
                 { posts.length ? (
-                <div id="slider-container">   
+                <div id="sliderNews-container">   
                 <MdChevronLeft size={40} className="slider-icon left" onClick ={slideNewsLeft}/>
                 <div id="sliderNews">
                         { posts.map( post => (

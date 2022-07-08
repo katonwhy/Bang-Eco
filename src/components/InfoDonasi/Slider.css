@@ -1,9 +1,9 @@
-/*untuk buat container yang ditengah */
-#slider-container {
-    max-width: 100%;
+/* untuk buat container yang ditengah */
+#sliderInfo-container {
+    width: 74%;
     height: 360px;
     margin-left: 170px;
-    margin-top: 150px;
+    margin-top: 50px;
 }
 
 /* .slider-content p {
@@ -28,10 +28,24 @@
 }
 
 /*untuk membuat icon panah jadi di tengah container*/
-#slider-container {
+#sliderInfo-container {
     position: relative;
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 787px) {
+    #sliderInfo-container {
+        width: 85%;
+        height: 360px;
+        margin-left: 40px;
+        margin-top: 50px;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    
+
 }
 
 .slider-content {
@@ -205,7 +219,9 @@ p.title:hover {
     margin-top: 60px;
 }
 
-@media (max-width: 1000px) {
+
+
+/* @media (max-width: 787px) {
     .slider-content p {
         display: -ms-grid;
         display: grid;
@@ -213,6 +229,13 @@ p.title:hover {
         justify-content: center;
         gap: 2rem;
     }
-}
+    #slider-container {
+        width: 74%;
+        height: 360px;
+        margin-left: 40px;
+        margin-top: 150px;
+    }
+
+} */
 
 
