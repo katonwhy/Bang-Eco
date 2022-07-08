@@ -29,7 +29,25 @@
 
 }
 
+a {
+    text-decoration: none;
+    color: rgb(69, 67, 67);
+}
+ /* a:hover{
+    color: white;
+ } */
 
+p.title {
+    font-weight: 700;
+    
+    
+   
+}
+
+p.title:hover {
+    color: white;
+    
+}
 
 .card-image {
     width: 100%;
@@ -163,7 +181,6 @@
 
 
 #info-edukasi {
-    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 1000;
     font-size: 34px;
@@ -171,24 +188,5 @@
     letter-spacing: -0.02em;
     color: #002F05;
     text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: rgb(69, 67, 67);
-}
- /* a:hover{
-    color: white;
- } */
-
-p.title {
-    font-weight: 700;
-    
-    
-   
-}
-
-p.title:hover {
-    color: white;
-    
+    margin-top: 60px;
 }

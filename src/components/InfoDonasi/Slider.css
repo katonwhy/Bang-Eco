@@ -6,13 +6,13 @@
     margin-top: 150px;
 }
 
-.slider-content p {
+/* .slider-content p {
     display: -ms-grid;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(1rem, 20rem));
     justify-content: center;
     gap: 2rem;
-}
+} */
 
 #slider {
     max-width: 100%;
@@ -51,7 +51,7 @@
 
 a {
     text-decoration: none;
-    color: rgb(69, 67, 67);
+   
 }
  /* a:hover{
     color: white;
@@ -60,7 +60,7 @@ a {
 p.title {
     font-weight: 700;
     
-    
+
    
 }
 
@@ -175,7 +175,7 @@ p.title:hover {
 }
 
 /*untuk ukuran card */
-div.slider-card {
+.slider-card {
     max-width: 300px;
     height: 335px;
     background: white;
@@ -195,7 +195,6 @@ div.slider-card {
 
 
 #info-donasi {
-    font-family: 'Work Sans';
     font-style: normal;
     font-weight: 1000;
     font-size: 34px;
@@ -203,4 +202,17 @@ div.slider-card {
     letter-spacing: -0.02em;
     color: #002F05;
     text-align: center;
+    margin-top: 60px;
 }
+
+@media (max-width: 1000px) {
+    .slider-content p {
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(1rem, 20rem));
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
+
