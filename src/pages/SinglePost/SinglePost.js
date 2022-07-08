@@ -74,11 +74,11 @@ class SinglePost extends React.Component {
 									<CardMedia
                                     component="img"
                                     image={post.better_featured_image.source_url}
-									style={{width: '50%', height: '300px', margin: 'auto'}}
+									style={{width: '50%', height: '300px', margin: '20px auto'}}
                                     />
                                     <Typography variant="body2" color="text.secondary"
 
-									style={{padding: '0 20%', textAlign: 'justify', color: '#002F05'}}
+									style={{padding: '20px 20%', textAlign: 'justify', color: '#002F05', lineHeight: '20px'}}
 
 									>
                                         {renderHTML( post.content.rendered )} 
