@@ -1,5 +1,30 @@
-#table-container {
-    width: 74%;
-    margin-left: 170px ;
-    margin-top: 50px; 
+.table-container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+#table-title {
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #002F05;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+@media (max-width: 787px) {
+    #table-title {
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 22px;
+        line-height: 40px;
+        letter-spacing: -0.02em;
+        color: #002F05;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
 }
