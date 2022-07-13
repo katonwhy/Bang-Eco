@@ -73,7 +73,8 @@ function TableComponent() {
   }
   
   return (
-    <div id='table-container'>
+    <div className='table-container'>
+      <p id="table-title">Cari Tempat Pengelolaan Sampah Di Sekitarmu</p>
       <Button 
           variant={buttonStyle1} 
           color="success" 

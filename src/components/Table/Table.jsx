@@ -69,6 +69,7 @@ function Table(props) {
       searchPlaceholder: 'Masukan kecamatan/kelurahan anda',
       print: false,
       download: false,
+      responsive: 'standard'
     };
   
     const getMuiTheme = () => createTheme({
